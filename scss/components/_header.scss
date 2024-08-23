@@ -1,8 +1,14 @@
-.texto{
-    color: blue;
+.header {
+    background-color: #f0f0f059;
+}
+.body__bgImg {
+    background-image: url("../../src/images/bienvenida.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-.color {
-    background-color: green;
-}
 
+.header__navLogo {
+    max-width: 80%;
+}
