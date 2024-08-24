@@ -1,0 +1,50 @@
+[
+    {
+        "id": "Producto 1",
+        "descripcion": "este es mi primer producto",
+        "precio": 19.99,
+        "categoria": "pintura"
+    },
+    {
+        "id": "Producto 2",
+        "descripcion": "este es mi segundo producto",
+        "precio": 29.99,
+        "categoria": "pintura"
+    },
+    {
+        "id": "Producto 3",
+        "descripcion": "este es mi tercer producto",
+        "precio": 39.99,
+        "categoria": "pintura"
+    },
+    {
+        "id": "Producto 4",
+        "descripcion": "este es mi cuarto producto",
+        "precio": 9.99,
+        "categoria": "pintura"
+    },
+    {
+        "id": "Producto 5",
+        "descripcion": "este es mi quinto producto",
+        "precio": 59.99,
+        "categoria": "pintura"
+    },
+    {
+        "id": "Producto 6",
+        "descripcion": "este es mi sexto producto",
+        "precio": 69.99,
+        "categoria": "pintura"
+    },
+    {
+        "id": "Producto 7",
+        "descripcion": "este es mi septimo producto",
+        "precio": 29.99,
+        "categoria": "pintura"
+    },
+    {
+        "id": "Producto 8",
+        "descripcion": "este es mi octavo producto",
+        "precio": 119.99,
+        "categoria": "pintura"
+    }
+]

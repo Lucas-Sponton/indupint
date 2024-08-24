@@ -1,0 +1,23 @@
+.productosBody__bg {
+    background-image: url(../../src/images/pintura-transparente-9.png), url(../../src/images/pintura-transparente-6.webp),url(../../src/images/pintura-transparente-7.webp) , url(../../src/images/pintura-transparente-1.webp), url(../../src/images/pintura-transparente-4.png!f305cw), url(../../src/images/pintura-transparente-11.webp), url(../../src/images/pintura-transparente-8.webp);
+    background-position: top left, 95% 10%, 20% 30%, 10% 50%, center right, 55% 72%, bottom center;
+    background-repeat: no-repeat;
+    background-size: 500px 400px, 500px 500px,450px 300px , 300px 300px, 400px 300px, 500px 300px, 1400px 400px ;
+    
+}
+
+/* 
+6: url(../../src/images/pintura-transparente-12.png)
+7: url(../../src/images/pintura-transparente-13.webp)
+8: ,bottom center, 1400px 400px
+*/
+
+.main__card {
+    height: 15rem;
+    margin: 1rem .5rem 1rem .5rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    border-radius: 35px;
+    box-shadow: 20px 15px 3px 0px rgba(0, 0, 0, 0.4);
+
+}
