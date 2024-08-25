@@ -72,12 +72,7 @@
   background-size: 500px 400px, 500px 500px, 450px 300px, 300px 300px, 400px 300px, 500px 300px, 1400px 400px;
 }
 
-/* 
-6: url(../../src/images/pintura-transparente-12.png)
-7: url(../../src/images/pintura-transparente-13.webp)
-8: ,bottom center, 1400px 400px
-*/
-.main__card {
+.main__productCard {
   height: 15rem;
   margin: 1rem 0.5rem 1rem 0.5rem;
   background: rgba(255, 255, 255, 0.1);

@@ -1,50 +1,698 @@
 [
     {
-        "id": "Producto 1",
-        "descripcion": "este es mi primer producto",
-        "precio": 19.99,
-        "categoria": "pintura"
+        "nombre": "DEXSOPINT D.E.1000",
+        "descripcion": "Desoxidante, Fostatizante, para desoxidar metales en general y evitar la formación de nuevos óxidos",
+        "propiedades": "Aprobación SENASA Exp. Nº 198013/94, Resol. Nº 277/96, Cód.2",
+        "rendimiento": "Rinde: 1 Litro: 10 m²",
+        "relaciones": "Se diluye: 20% Agua. Sacar polvillo una vez seco. Usar protección",
+        "categoria": "Desoxidantes y Desengrasantes"
     },
     {
-        "id": "Producto 2",
-        "descripcion": "este es mi segundo producto",
-        "precio": 29.99,
-        "categoria": "pintura"
+        "nombre": "DESGRAPINT L.P.400",
+        "descripcion": "Se utiliza para limpieza de superficies oxidadas y con alto contenido de grasa en pisos de cemento, en talleres industriales. Donde no se puede arenas",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 10 m²",
+        "relaciones": "Se diluye: 20% Agua. Enjuagar bien. Usar protección",
+        "categoria": "Desoxidantes y Desengrasantes"
     },
     {
-        "id": "Producto 3",
-        "descripcion": "este es mi tercer producto",
-        "precio": 39.99,
-        "categoria": "pintura"
+        "nombre": "DESGRAPINT M.300",
+        "descripcion": "Permite abrir mordiente en azulejos, cerámicos, esmaltados vicri facilitando el futuro pintado. Especial para uniformar revestimientos viejos",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 6 a 8 m²",
+        "relaciones": "Se diluye con agua. Una vez que actúa sacar Gel. Enjuagar bien. Usar protección",
+        "categoria": "Desoxidantes y Desengrasantes"
     },
     {
-        "id": "Producto 4",
-        "descripcion": "este es mi cuarto producto",
-        "precio": 9.99,
-        "categoria": "pintura"
+        "nombre": "ROLDAPINT R.P.500",
+        "descripcion": "Líquido incoloro, para proteger superficies ferrosas sometidas a bajas temperaturas y humedad",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 12 m²",
+        "relaciones": "Se aplica Superficie húmeda desoxidada",
+        "categoria": "Desoxidantes y Desengrasantes"
     },
     {
-        "id": "Producto 5",
-        "descripcion": "este es mi quinto producto",
-        "precio": 59.99,
-        "categoria": "pintura"
+        "nombre": "OXIPINT O.X.501",
+        "descripcion": "Convertidor de óxido para protección de metales con superficies oxidadas, color: Rojo, Gris",
+        "propiedades": "Aprobación SENASA Exp. Nº 198011/94, Resol. Nº 1521/94, Cód.1",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "45 Micrones de espesor. Se diluye con S.C.A. Ventilar bien el lugar",
+        "categoria": "Fondos Anticorrosivos y Antióxidos"
     },
     {
-        "id": "Producto 6",
+        "nombre": "ALQUIPINT A.C.502",
+        "descripcion": "Antióxido alta protección. Base Cromato de Zinc. Colores: Blanco, Rojo, Gris, Amarillo y Verde",
+        "propiedades": "Aprobación SENASA Exp. Nº 198011/94, Resol. Nº 1521/94, Cód.1",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "45 Micrones de espesor. Se diluye con S.C.A. Ventilar bien el lugar",
+        "categoria": "Fondos Anticorrosivos y Antióxidos"
+    },
+    {
+        "nombre": "ALQUIPINT F.N.503",
+        "descripcion": "Antióxido especial para interior máquinas lavadoras, parte agua fría, estructuras sometidas a condiciones severas. Color: Naranja",
+        "propiedades": "Aprobación SENASA Exp. Nº 198011/94, Resol. Nº 1521/94, Cód.1",
+        "rendimiento": "Rinde: 1 Litro: 6 m²",
+        "relaciones": "50 Micrones de espesor. Se puede dejar como protección final. Se diluye con S.C.A. Ventilar bien el lugar",
+        "categoria": "Fondos Anticorrosivos y Antióxidos"
+    },
+    {
+        "nombre": "ALQUIPINT F.M.504",
+        "descripcion": "Fondo Antióxido para máquinas agrícolas, herrería Secado rápido. Color: varios",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 10 m²",
+        "relaciones": "30 Micrones de espesor. Se diluye con S.C.A.",
+        "categoria": "Fondos Anticorrosivos y Antióxidos"
+    },
+    {
+        "nombre": "ALQUIPINT C.C.505",
+        "descripcion": "Antióxido fondo para caucho clorado 'C.C' especial donde hay humedad y resistencia a los agentes químicos. Colores: Naranja, Rojo, Gris",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "30 Micrones de espesor. Se diluye con DI.222. Ventilar bien el lugar",
+        "categoria": "Fondos Anticorrosivos y Antióxidos"
+    },
+    {
+        "nombre": "ALQUIZINC Z.R.506",
+        "descripcion": "Antióxido rico en polvo de Zinc, secado rápido. Alta resistencia a las corrientes galvánicas. No repintar",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 5 m²",
+        "relaciones": "40 Micrones de espesor. Relación 'A' + 'C'. Se diluye con S.C.A. Ventilar bien el lugar",
+        "categoria": "Fondos Anticorrosivos y Antióxidos"
+    },
+    {
+        "nombre": "ALQUIZINC Z.R.507",
+        "descripcion": "Especial para superficies donde se necesita un severo tratamiento antióxido. Contiene Zinc que permite una pretocción catódica a los metales contra la corrosión",
+        "propiedades": "",
+        "rendimiento":"Rinde: 1 Litro: 7 m²",
+        "relaciones": "50 Micrones. Diluidor: DI 333. Precaución: Remover continuo. Tricomponentes: A+B+C. Antes de 48 hs aplicar final. Lugar aireado",
+        "categoria": "Fondos Anticorrosivos y Antióxidos"
+    },
+    {
+        "nombre": "ALQUIZINC Z.I.510 INORGÁNICO",
+        "descripcion": "Fondo esp. para la industria naviera zona salina y de máximo rigor, sup. arenada y húmeda. No se repinta. Sustrado especial para todos los esquemas: Sintéticos, caucho, Epoxi, etc",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 3 m²",
+        "relaciones": "120 Micrones. Componentes: 'A' + 'B' relación en Kg. 2 a 1. Diluidor DI.510. Lugar aireado",
+        "categoria": "Fondos Anticorrosivos y Antióxidos"
+    },
+    {
+        "nombre": "ALQUIPINT E.P.508 BASE EPOXI",
+        "descripcion": "Antióxido base, especial para esmalte Epoxi, compatible con Esmaltes Clorados, sintéticos, vinílicos, poliuretano. Color: Naranja, Rojo y Gris.",
+        "propiedades": "Aprobación SENASA Exp. Nº 198011/94, Resol. Nº 1521/94, Cód.1",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "40 Micronres de espesor. Se diluye con DI.333. Bi-componentes A+B, relación volumen 1 a 1. Antes 48 hs, aplicar final. Admite como terminación. Airear lugar",
+        "categoria": "Fondos Anticorrosivos y Antióxidos"
+    },
+    {
+        "nombre": "ALQUIPINT P.O.555 BASE POLIURETANO",
+        "descripcion": "Antióxido de alta resistencia al ataque de agentes químicos. Compatible con Esmaltes, Sintéticos, Cauchos Epoxi y Poliuretanos. Colores: varios. A las 24 hs, se aplica terminación Poliure-pint P.0.555, superficie limpia, áspera y seca, arenado 100% adherencia",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 6 m²",
+        "relaciones": "35 Micrones. Diluidor: DI.555. Se aplica con pincel, rodillo, soplrete airless. Componentes: A+B. Relación 4+1. Temperatura: de 20 a 25 ºC",
+        "categoria": "Fondos Anticorrosivos y Antióxidos"
+    },
+    {
+        "nombre": "ALQUIPINT F.H.780 ECÓLOGICO",
+        "descripcion": "Antióxido para superficies húmedas, emulsionable en agua, compatible con esmaltes Epoxis, Clorados, Sintéticos, Poliuretanos. Colores: Rojo, Blanco, Transparente y Ferroso",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "20 Micrones. Diluidor: DI.333. Componentes A+B, relación volumen 1 a 1. Airear lugar",
+        "categoria": "Fondos Anticorrosivos y Antióxidos"
+    },
+    {
+        "nombre": "PRAIMET I.M.509",
+        "descripcion": "Imprimación para chapas galvanizadas o aluminio. Especial anclaje en la aplicación de futuras pinturas Mono-bi componentes",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 12 m²",
+        "relaciones": "12 Micrones. Diluidor: DI.333. Componentes A+B, relación volumen 1 a 1. Airear lugar",
+        "categoria": "Fondos Anticorrosivos y Antióxidos"
+    },
+    {
+        "nombre": "INDUPINT E.S.111",
+        "descripcion": "Esmalte sintético, antiácido, secado rápido para máquinas y estructuras en general, sometidas a la acción de elementos químicos. Colores varios",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "30 Micrones. Se diluye con S.C.A. Seca: 2 horas. Admite repintado. Airear el lugar",
+        "categoria": "Esmaltes sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "ABEJIN",
+        "descripcion": "Esmalte especial para colmenas y maderas de gran elasticidad y protección de la superficie por muchos años. No emana olores ni contamina",
+        "propiedades": "Aprobación SENASA Exp. Nº 13428/03",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "30 Micrones. Se diluye con S.C.A. Ecológica. Admite repintado",
+        "categoria": "Esmaltes sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "INDUPINT E.S.11 BIFUNCIÓN DUO",
+        "descripcion": "Esmalte doble función: se aplica como fondo y terminación dejando una película elástica de excelente protección duradera y retención del brillo en superficies de hierro, madera, aluminio, etc",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "30 Micrones. Se diluye con S.C.A. Admite repintado",
+        "categoria": "Esmaltes sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "INDUPINT E.S.111 TRI",
+        "descripcion": "Esmalte de alto brillo cumple tres funciones antióxido convertidor y esmalte. Terminación de muy buena resistencia química",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 5 m²",
+        "relaciones": "70 Micrones. Se diluye con SCA",
+        "categoria": "Esmaltes sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "INDUPINT E.S.112 VITRO SPRAY",
+        "descripcion": "Esmalte de alta resistencia y brillo. Se recomienda en terminación con máximo detalle",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 10 m²",
+        "relaciones": "30 Micrones. Se diluye con S.C.T.O. Admite repintado. Seca: 10 minutos",
+        "categoria": "Esmaltes sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "CLOROPINT C.C.222 CAUCHO CLORADO",
+        "descripcion": "Esmalte especial para sup. sometidas a Ácidos, Alcalis y Humedad. Aplicación: Ind. Aliment., vitivinícolas, Químicas, Curtidoras, Textiles, Frigorificas, etc. Colores: varios",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "30 Micrones. Se diluye con: D.I.222. Admite repintado. Seca: 10 minutos. Ventilar bien el lugar",
+        "categoria": "Esmaltes sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "INDUPINT E.P.333 EPOXI",
+        "descripcion": "Esmalte revestimiento de dos componentes para terminación en Industrias alimenticias, laboratorios, estructuras donde requiera codiciones muy severas. Colores varios",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "30 Micrones. Diluidor: D.I.333. Componentes: A+B, relación volumen 1 a 1. Superficie arenada: mejor rendimiento. Lugar bien aireado",
+        "categoria": "Esmaltes, Revestimientos Epoxi y Poliuretanos Bi Componentes"
+    },
+    {
+        "nombre": "INDUPINT E.P.334-B EPOXI",
+        "descripcion": "Esmalte Bituminoso Negro de Hulla, especial para superficies sometidas a la acción de ácidos alcalis. Protege muy bien al cemento, y en lugares de severas condiciones",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 6 m²",
+        "relaciones": "45 Micrones. Diluidor: D.I.333. Componentes: A+B, relación volumen 4 a 1. Superficie arenada",
+        "categoria": "Esmaltes, Revestimientos Epoxi y Poliuretanos Bi Componentes"
+    },
+    {
+        "nombre": "INDUPINT E.P.334.S. EPOXI",
+        "descripcion": "Alto sólido, especial para cañerías, residuos cloacales, petróleo, piletas de barrido, depósito decantación. Resistencia a la abrasión, presión e impacto. Color: Negro",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 2 m²",
+        "relaciones": "180 Micrones. Diluidor: DI.333. Componentes: A+B, relación volumen 4 a 1. Superficie arenada",
+        "categoria": "Esmaltes, Revestimientos Epoxi y Poliuretanos Bi Componentes"
+    },
+    {
+        "nombre": "INDUPINT A.S.C.440 EPOXI",
+        "descripcion": "Convertidor de óxido Epoxi, muy buena adherencia, sustrato indicado para todo tipo de pintura. Alta resistencia a los agentes corrosivos. Colores: Blanco, Gris y Negro",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 5 m²",
+        "relaciones": "60 Micrones. Diluidor: DI.333. Componentes: A+B, relación volumen 1 a 1",
+        "categoria": "Esmaltes, Revestimientos Epoxi y Poliuretanos Bi Componentes"
+    },
+    {
+        "nombre": "INDUPINT A.S.440 EPOXI",
+        "descripcion": "Revestimiento para tanques de Alcohol, combustibles livianos, sulfatos, soporta las más severas condiciones. Preparado, fragua en 30 minutos. a 25 ºC",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Kg.: 1 m²",
+        "relaciones": "500 Micrones. Componentes: A+B, relación volumen 4 a 1. Superficie arenada. Airear lugar",
+        "categoria": "Esmaltes, Revestimientos Epoxi y Poliuretanos Bi Componentes"
+    },
+    {
+        "nombre": "INDUPINT E.P.444-P",
+        "descripcion": "Revestim. sanitario, para industrias alimenticias, vitivinícolas, contacto directo con alimentos. Aplicación: a espátula. Preparado, fragua en 2 hs., a 30 ºC",
+        "propiedades": "Aprobación I.N.V = Nº 2000028",
+        "rendimiento": "Rinde: 1 Kg.: 1 m²",
+        "relaciones": "900 Micrones. Componentes: A+B, relación volumen 4 a 1. Superficie arenada. Airear lugar",
+        "categoria": "Esmaltes, Revestimientos Epoxi y Poliuretanos Bi Componentes"
+    },
+    {
+        "nombre": "EPOXI YA ESPATULA",
+        "descripcion": "Revestimiento de fácil aplicación a espátula, sin dejar microporos especial para Industria Vitinivinícola, Láctea y Frigorífica en paredes interiores, vasijas, tanques, pisos canaletas. En sustratos débiles o de poca dureza es apropiado por su baja tracción a la superficie, evitando el ampollado",
+        "propiedades": "",
+        "rendimiento": "Rinde: 0.800 Kg.: 1 m²",
+        "relaciones": "700 Micrones. Componentes: A+B,  relación 4+1. Temperatura: de 20 a 25 ºC. Superficie arenada",
+        "categoria": "Esmaltes, Revestimientos Epoxi y Poliuretanos Bi Componentes"
+    },
+    {
+        "nombre": "INDUPINT E.P.444-A.R",
+        "descripcion": "Revestimiento sanitario, especial en vasijas vinaria, agua, aceites. Aplicación: a rodillo. Preparado, fragua en 3 hs., a 30 ºC",
+        "propiedades": "Aprobación I.N.V. Nº 2000027",
+        "rendimiento": "Rinde: 1 Kg.: 1,5 m²",
+        "relaciones": "500 Micrones. Componentes: A+B, relación volumen 1 a 1. Superficie arenada. Airear lugar",
+        "categoria": "Esmaltes, Revestimientos Epoxi y Poliuretanos Bi Componentes"
+    },
+    {
+        "nombre": "EPOXI YA A.R",
+        "descripcion": "Revestimiento de Aplicación a rodillo, especial para Industria Vitivinícola, Láctea y Frigorífica en paredes interiores, vasijas, tanques, pisos canaletas, lagares. En sustratos débiles es apropiado por su baja tracción a la superficie, evitando el ampollado",
+        "propiedades": "",
+        "rendimiento": "Rinde: 0.600 Kg.: 1 m²",
+        "relaciones": "600 Micrones. Componentes: A+B, relación 1+1. Superficie arenada. Vida útil de la mezcla: 4hs. a temperatura de 20 a 25 ºC",
+        "categoria": "Esmaltes, Revestimientos Epoxi y Poliuretanos Bi Componentes"
+    },
+    {
+        "nombre": "POLIURE-PINT P.O.555",
+        "descripcion": "Esmalte Poliuretano, especial para industria naviera, Láctea, Petrolera, tanque transporte. Resistente a la acción de rayos solares. No matea. Colores: varios y transparentes. Preparado, fragua en 2 hs a 25 ºC",
+        "propiedades": "Aprobación SENASA Nº 237/2006",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "30 Micrones. Diluidor: DI 555. BASE ALQUIPINT PO-555. Componentes: A+B, relación volumen 4 a 1. Lugar aireado",
+        "categoria": "Esmaltes, Revestimientos Epoxi y Poliuretanos Bi Componentes"
+    },
+    {
+        "nombre": "FRIO PINT F.H.777 EPOXI",
+        "descripcion": "Hidrosoluble transparente para aplicar en bajas temperaturas. Superficie húmeda, mampostería, estructura de hierro en general.",
+        "propiedades": "Aprobación SENASA Exp. Nº 198012/94. Resol. Nº 246/95. Cód.1",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "45 Micrones. Diluidor: Agua. Componentes: A+B, relación volumen 1 a 1. Ecológico e inoloro",
+        "categoria": "Esmalte y revestimiento industria Frigorífica y Alimenticia en general"
+    },
+    {
+        "nombre": "FRIO PINT F.H.777 ACTILICO",
+        "descripcion": "Para aplicar en cámara de atmósfera con fruta, revestimientos, tanques de agua túnel humidificador. Alta adherencia en Poliestireno. Óptima estanqueidad",
+        "propiedades": "",
+        "rendimiento": "Rinde: 2 a 3 Kg. por 1 m² en atmósfera. 1 Kg. por 1 m² repintado. 1 Kg. por 4 m² en cámara frigorífica",
+        "relaciones": "Diluidor: Agua. Ecológico e inoloro",
+        "categoria": "Esmalte y revestimiento industria Frigorífica y Alimenticia en general"
+    },
+    {
+        "nombre": "FRIO PINT F.H.777 EPOXI ACRILICO",
+        "descripcion": "Esmalte Epoxi-Acrílico hidrosoluble, ecológico e inoloro. Muy fácil aplicación en Industria Alimenticia, Frigoríficos, Hospitales, Industria Lásctea",
+        "propiedades": "Aprobación SENASA EXP. Nº 198012/94. Resol. Nº 246/95",
+        "rendimiento": "Rinde: 1 Litro: 8 a 10 m²",
+        "relaciones": "45 Micrones, espesor 60 a 90 micrones. Diluidor: Agua. Componentes: A+B, relación 95A-5B",
+        "categoria": "Esmalte y revestimiento industria Frigorífica y Alimenticia en general"
+    },
+    {
+        "nombre": "FRIO PINT A.I.666",
+        "descripcion": "Esmalte Acero Inoxidable, especial para estructuras en industria frigorífica, Láctea, y alimentación en general. Superficie seca y arenada. Como base aplicar A.S.C.440. Convertidor",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "30 Micrones. Diluidor: DI 333. Componentes: A+B, relación volumen 4 a 1. Lugar aireado",
+        "categoria": "Esmalte y revestimiento industria Frigorífica y Alimenticia en general"
+    },
+    {
+        "nombre": "FRIO PINT F.H.777 EPOXI ECOLÓGICO",
+        "descripcion": "Hidrosoluble; revestimiento especial para cámaras frigoríficas, mampostería en general. Apto superficie húmeda y baja temperatura. Colores: varios",
+        "propiedades": "Aprobación SENASA Exp. Nº 190012/94. Resol. Nº 246/95. Cód.1",
+        "rendimiento": "Rinde: 1 Litro: 5 m²",
+        "relaciones": "40 Micrones. Diluidor: Agua. Componentes: A+B, relación volumen 4 a 1 y 1 a 1. Epoxi. Ecológico e inoloro",
+        "categoria": "Esmalte y revestimiento industria Frigorífica y Alimenticia en general"
+    },
+    {
+        "nombre": "FRIO PINT F.P.666",
+        "descripcion": "Esmalte inalterable para cámaras frigoríficas, zócalos, paredes, estructuras. Aplicación superficies secas. Colores: varios. Soporta muy bajas temperaturas",
+        "propiedades": "Aprobación SENASA Exp. Nº 198012/94",
+        "rendimiento": "Rinde: 1 Litro: 5 m²",
+        "relaciones": "45 Micrones. Diluidor: DI.333. Componentes: A+B, relación volumen 2 a 1. Lugar ventilado",
+        "categoria": "Esmalte y revestimiento industria Frigorífica y Alimenticia en general"
+    },
+    {
+        "nombre": "INDUPINT I.P.335",
+        "descripcion": "Imprimación, sellador de poros en pisos. Superficie seca y arenada. Perfecta adherencia y muy buen anclaje",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 10 m²",
+        "relaciones": "Dil.: DI.333. A las 4 hs masillar o pintar. Componentes: A+B, relación volumen 1 a 1",
+        "categoria": "Esmaltes Sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "INDUPINT I.P.336",
+        "descripcion": "Imprimación, sellador de poros e impermeabilizante en pisos sin barrera de vapor, superficie húmeda, estanco al agua piletas subterráneas o con revenimiento. Epoxi. Ecológico",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 5 m²",
+        "relaciones": "Diluidor: Agua. Componentes: A+B, relación volumen 1 a 1. Admite masilla pintado o mortero",
+        "categoria": "Esmaltes Sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "FRIO PINT F.H.778",
+        "descripcion": "Masilla especial para superficie húmeda, en piletas, tanques, con la incorporación de tela Matt o velo. Epoxi. Inoloro. Ecológico",
+        "propiedades": "",
+        "rendimiento": "Rinde: 2 Litros: 1 m²",
+        "relaciones": "2 mm. de espesor. Diluidor: Agua. Componentes: A+B, relación volumen 4 a 1. Admite pintura y mortero",
+        "categoria": "Esmaltes Sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "INDUPINT ENDUIDO 445",
+        "descripcion": "Enduido, se utiliza para uniformar paredes, laboratorios, pisos, hasta 400 micrones, superficie seca. Lijable",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 1 m²",
+        "relaciones": "1 mm. de espesor. Diluidor: DI.333. Componentes: A+B, relación volumen 1 a 1. Admite pintura",
+        "categoria": "Esmaltes Sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "INDUPINT MASILLA 3 P.P",
+        "descripcion": "Para fijar azulejos, revestimientos cerámicos, sobre revoque, mortero, hormigón y bacheo, hasta 600 micrones. Superficie seca",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 1 m²",
+        "relaciones": "1 mm de espesor. Diluidor: DI.333. Componentes: A+B, relación volumen 1 a 1. Admite pintado antes 48 hs",
+        "categoria": "Esmaltes Sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "MASIFLEX 223",
+        "descripcion": "Masilla acrílica, especial para vibraciones constantes. Superficies secas. Piletas, tanques, reservorios. Se mantiene elástica",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 2 cm x 2 cm x 5 mts. lineales",
+        "relaciones": "Diluidor:Agua. Precaución: impregnar bien los bordes antes de aplicar",
+        "categoria": "Esmaltes Sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "PISOLIK F.H.779",
+        "descripcion": "Revestimiento para pisos, superficies húmedas. Admite bajas temperaturas. Colores: varios. Inoloro. Ecológico",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 2 m²",
+        "relaciones": "150 Micrones. Diluidor: Agua. Componentes: A+B, relación volumen 1 a 1.",
+        "categoria": "Esmaltes Sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "PISOLIK I.P.350",
+        "descripcion": "Esmalte para piso, antiácido. Se usa como terminación en superficie homogénea previo arenado y con imprimación o masillado y mortero. Colores: varios. Superficies secas",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 2 m²",
+        "relaciones": "150 Micrones. Diluidor: DI.333. Componentes: A+B, relación volumen 2 a 1",
+        "categoria": "Esmaltes Sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "PISOLIK I.J.360",
+        "descripcion": "Revestimiento autonivelante para juntas. Adhiere sobre hormigón, acero, aluminio, cerámico. Apto para relleno hasta 4mm de espesor. Colores: varios. Ecológico y al solvente",
+        "propiedades": "",
+        "rendimiento": "Rinde: 2 Kg., por litro de espacio a rellenar",
+        "relaciones": "Componentes: A+B+C, relación peso Kg.: 5 + 2 + 10",
+        "categoria": "Esmaltes Sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "PISOLIK I.J.365",
+        "descripcion": "Revestimiento autonivelante para proteger pisos de laboratorios, quirófanos e industria en general donde sea necesario una terminación lisa o antideslizante segun el uso requerido. Colores: varios. Preparado fragua: 30 minutos",
+        "propiedades": "",
+        "rendimiento": "Rinde: 3 Kg. 1 m² 3 mm. de espesor",
+        "relaciones": "Diluidor: DI.333. Componentes: A+B+C, relación peso Kg.: 5 + 2 + 10. Ecológico. DIluidor Agua",
+        "categoria": "Esmaltes Sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "PISOLIK P.O.555",
+        "descripcion": "Revestimiento autonivelante para proteger los pisos de laboratorios, quirófanos, industrias. En general, donde sea necesario una protección de máxima resistencia química. Adhiere sobre aluminio, hierro, cemento se aplica imprimación",
+        "propiedades": "",
+        "rendimiento": "Rinde: 3 Kg.: 1 m² x 3 mm de espesor",
+        "relaciones": "Diluidor: DI.555. Componentes: A+B",
+        "categoria": "Esmaltes Sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "PISOLIK X.44 ACUOSO Y AL SOLVENTE",
+        "descripcion": "Mortero Epoxi para rellenar baches, nivelar. Alta resistencia química, tránsito. Compresión. Tiene muy buen anclaje. Colores: varios. Preparado fragua: 1 hora",
+        "propiedades": "",
+        "rendimiento": "Rinde: 14 Kg.: 1 m² 8 mm de espesor. Componentes: A+B+C, relación peso Kg.: 0,800 + 0,600 + 8,600. Admite enduído y pintura",
+        "relaciones": "",
+        "categoria": "Esmaltes Sintéticos, Nitro y Cauchos Clorados"
+    },
+    {
+        "nombre": "INDUPINT 370 HIERRO MICACE",
+        "descripcion": "Esmalte ferroso, de resina Sintética, Caucho o Epoxi. Tiene las características de tomar el color del hierro en su estado grisáceo. De muy buena adherencia, brindando una terminación natural a los metales",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "30 Micrones. Diluidor: S.C.A., DI.222, DI.333, según composición base. Si es Epoxi, relación volumen 1 a 1. Epoxi. Ecológico. Diluidor: Agua",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "INDUPINT I.A.X.371",
+        "descripcion": "Esmalte de muy buen anclaje para azulejos, cerámicos, bañeras, etc. De utilidad en laboratorios, frigoríficos, lácteos e industria en general. Colores: varios. Uniforma colores en viejas estructuras",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 10 m²",
+        "relaciones": "20 Micrones. Diluidor: DI.555. Componentes: A+B, relación volumen 4 a 1",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "INDUPINT E.M.888",
+        "descripcion": "Esmalte martillado, secado rápido, antiácido, resistente a los golpes, disimula imperfecciones, una sola mano se obtiene un acabado texturado perfecto. Colores: varios",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 10 m²",
+        "relaciones": "20 Micrones. Diluidor: S.C.T.O",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "VIDRIO SOL V.S.1200",
+        "descripcion": "Esmalte especial para opacar vidrios y atenuar rayos solares en claraboyas, ventanas. Se elabora en varios colores",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "Diluidor: S.C.A. Colores oscuros disminuyen luminosidad",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "VAPOR PINT U.P.1001",
+        "descripcion": "Esmalte especial para interior tanques de agua, calderas, baño maría, autoclaves, agua en ebullición. Resiste vibración. Colores: Blanco, Negro y Gris",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "30 Micrones. Diluidor: DI.222. Admite repintado. Ventilar bien",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "DEMAR-K-VIAL I.D.1003",
+        "descripcion": "Demarcación sectores en industrias; de muy buen anclaje, resistente a los golpres. Con sembrado de perlas reflectivas. Colores: varios. Base caucho",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 50 m lineales en franjas de 10 cm",
+        "relaciones": "Diluidor: DI.222",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "DEMAR-K-VIAL I.D.1002 EPOXI",
+        "descripcion": "Demarcación insdustrial, de alta resistencia al tránsito, fricción, compresión y desgaste, con sembrado de perlas reflec. Colores: varios",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 30 m lineales en franjas de 10 cm",
+        "relaciones": "Componentes: A+B, relación volumen 1 a 1",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "DEMAR-K-VIAL TRI TRICOMPONENTE",
+        "descripcion": "Esmalte para demarcación de muy alta resistencia química a los ácidos y sales, donde el lugar sea muy agresivo. Preparado, fragua en 30 minutos",
+        "propiedades": "",
+        "rendimiento": "Rinde: 3 Kg.: 1 m² 3 mm de espesor",
+        "relaciones": "Diluidor: DI.333. Componentes: A+B+C, relación peso Kg: 5 + 2 + 10",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "FOSFOR PINT F.O.S 3090",
+        "descripcion": "Especial señalización lugars de seguridad. Colores fosforescentes. Especial indicación lugar de riesgo",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 6 m²",
+        "relaciones": "Para mantener inalterable terminación barniz marino. Diluidor: S.C.A",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "UVAPINT U.P.999",
+        "descripcion": "Pint. inolora, tixotrópica, acuosa, para protección interior de piletas en establecimientos vitivinícolas. Aplic. en frío",
+        "propiedades": "Aprobación por I.N.V",
+        "rendimiento": "Rinde: 1 Litro: 6 m²",
+        "relaciones": "Diluidor: Agua. Precaución: ventilar, eliminar humedad",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "UVAPINT INDUSTRIAL",
+        "descripcion": "Especial, forma capa aisladora como barrera de vapor en cámaras. Pegado de poliest. y protec. de cemento antihumedad",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1,5 Litros: 1 m²",
+        "relaciones": "Diluidor: Agua. Color Negro",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "INDUPINT PLAST I.P.998",
+        "descripcion": "Sella grietas en general, especial interior de piletas industria vitivinícola y olivinicola. Color: Negro",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Kg.: 1 m²",
+        "relaciones": "Se aplica en caliente con pincel de Pita o espátula. En tiras rinde: 1 Kg.: 3 mts. lineales espesor 2 cm x 2 cm",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "UNI SELL EPOXI 3085",
+        "descripcion": "Une monolíticamente el cemento nuevo con el viejo. Adhiere madera, hierro, aluminio",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Kg.: 1 m². película 1 mm",
+        "relaciones": "Precaución: endurece rápido",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "UNI SELL ACRILICO 3086",
+        "descripcion": "Incorporado al cemento fluidifica y une monolíticamente el viejo con el nuevo, dándole dureza y resistencia química",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro en mezcla de 15 Kg",
+        "relaciones": "Cemento más arena, más agua",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "UNI SELL ACRILICO 3086",
+        "descripcion": "Revestimiento acuoso para pisos, baches y nivelación, buena resistencia sust. químicas. Debe protegerse con PISOLIK IP-350",
+        "propiedades": "",
+        "rendimiento": "Rinde: 15 Kg por m² x 8 mm de espesor",
+        "relaciones": "Diluidor: Agua",
+        "categoria": "Esmaltes usos especiales"
+    },
+    {
+        "nombre": "Producto 6",
         "descripcion": "este es mi sexto producto",
-        "precio": 69.99,
-        "categoria": "pintura"
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "Aluminio y Barnices"
     },
     {
-        "id": "Producto 7",
+        "nombre": "Producto 7",
         "descripcion": "este es mi septimo producto",
-        "precio": 29.99,
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
         "categoria": "pintura"
     },
     {
-        "id": "Producto 8",
+        "nombre": "Producto 8",
         "descripcion": "este es mi octavo producto",
-        "precio": 119.99,
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 9",
+        "descripcion": "este es mi noveno producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 10",
+        "descripcion": "este es mi decimo producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 1",
+        "descripcion": "este es mi primer producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 2",
+        "descripcion": "este es mi segundo producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 3",
+        "descripcion": "este es mi tercer producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 4",
+        "descripcion": "este es mi cuarto producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 5",
+        "descripcion": "este es mi quinto producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 6",
+        "descripcion": "este es mi sexto producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 7",
+        "descripcion": "este es mi septimo producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 8",
+        "descripcion": "este es mi octavo producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 9",
+        "descripcion": "este es mi noveno producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 10",
+        "descripcion": "este es mi decimo producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 1",
+        "descripcion": "este es mi primer producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 2",
+        "descripcion": "este es mi segundo producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 3",
+        "descripcion": "este es mi tercer producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 4",
+        "descripcion": "este es mi cuarto producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 5",
+        "descripcion": "este es mi quinto producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 6",
+        "descripcion": "este es mi sexto producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
+        "categoria": "pintura"
+    },
+    {
+        "nombre": "Producto 7",
+        "descripcion": "este es mi septimo producto",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "",
         "categoria": "pintura"
     }
 ]
