@@ -520,179 +520,283 @@
         "categoria": "Esmaltes usos especiales"
     },
     {
-        "nombre": "Producto 6",
-        "descripcion": "este es mi sexto producto",
+        "nombre": "INDUTECH A-1005",
+        "descripcion": "Aluminio anticorrosivo, excelente adhesividad en metales, chapa, fibrocemento, membrana",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
+        "rendimiento": "Rinde: 1 Litro: 15 m²",
+        "relaciones": "Diluidor: S.C.A",
         "categoria": "Aluminio y Barnices"
     },
     {
-        "nombre": "Producto 7",
-        "descripcion": "este es mi septimo producto",
+        "nombre": "INDUTECH A.R.I.1010",
+        "descripcion": "Aluminio superbrillante, antitérmico, alta resistencia al exterior. Especial techos de Zinc, fribrocemento o membrana",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 15 m²",
+        "relaciones": "Diluidor: S.C.A. Precaución en aplicación por reflejo solar",
+        "categoria": "Aluminios y Barnices"
     },
     {
-        "nombre": "Producto 8",
-        "descripcion": "este es mi octavo producto",
+        "nombre": "INDUPINT A.L.B.I.1515",
+        "descripcion": "Aluminio especial superficie sometida a la acción de anhídrido, sulfuroso, ácidos alcalis, int, y ext.. Muy buena adherencia",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 6 m²",
+        "relaciones": "35 Micrones. Diluidor: DI.222",
+        "categoria": "Aluminios y Barnices"
     },
     {
-        "nombre": "Producto 9",
-        "descripcion": "este es mi noveno producto",
+        "nombre": "INDUGANCH A.1517",
+        "descripcion": "Aluminio anticorrosivo brillante de muy buena adhesividad para estructuras ind. frigorífica. No permite adherencia de grasa",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "35 Micrones. Diluidor: S.C.A. Adquiere dureza: 24 hs",
+        "categoria": "Aluminios y Barnices"
     },
     {
-        "nombre": "Producto 10",
-        "descripcion": "este es mi decimo producto",
+        "nombre": "INDUPINT A.T.350",
+        "descripcion": "Aluminio especial para lugares sometidos a temperatura",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 10 m²",
+        "relaciones": "20 Micrones. Diluidor: S.C.A. No pintar superficie caliente",
+        "categoria": "Aluminios y Barnices"
     },
     {
-        "nombre": "Producto 1",
-        "descripcion": "este es mi primer producto",
+        "nombre": "INDUPINT A.T.700",
+        "descripcion": "Aluminio para chimeneas, escapes y lugar de severo tratamiento de temperaturas elevadas hasta 750 ºC",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 10 m²",
+        "relaciones": "20 Micrones. Diluidor: S.C.A. Precaución: no pintar en superficie caliente. Capas finas, superficie arenada",
+        "categoria": "Aluminios y Barnices"
     },
     {
-        "nombre": "Producto 2",
-        "descripcion": "este es mi segundo producto",
+        "nombre": "INDUPINT A.T.450",
+        "descripcion": "Esmalte para alta temperatura para demarcación cañerías. Colores: Blanco, Negro, Rojo, Verde, Naranja, Azul",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 7 m²",
+        "relaciones": "30 Micrones. No requiere fondo. No pintar sup. caliente, Arenado, mejor",
+        "categoria": "Aluminios y Barnices"
     },
     {
-        "nombre": "Producto 3",
-        "descripcion": "este es mi tercer producto",
+        "nombre": "INDU-BELL I.B.1004",
+        "descripcion": "Barniz para madera interior y ladrillo a la vista",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 8 m², en ladrillo: 4 m²",
+        "relaciones": "Diluidor: S.C.A",
+        "categoria": "Aluminios y Barnices"
     },
     {
-        "nombre": "Producto 4",
-        "descripcion": "este es mi cuarto producto",
+        "nombre": "INDU-BELL I.B.1008",
+        "descripcion": "Barniz marino, especial para maderas exterior, alta resistencia a los rayos Ultra violetas",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "Diluidor: S.C.A. Secado rápido",
+        "categoria": "Aluminios y Barnices"
     },
     {
-        "nombre": "Producto 5",
-        "descripcion": "este es mi quinto producto",
+        "nombre": "INDU-BELL I.B.600",
+        "descripcion": "Barniz y pintura ignífuga para construcciones, interior polvorines, incombustible",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "Diluidor: DI.222",
+        "categoria": "Aluminios y Barnices"
     },
     {
-        "nombre": "Producto 6",
-        "descripcion": "este es mi sexto producto",
+        "nombre": "ACRILPINT C.B.3020",
+        "descripcion": "Impermeabiliza pequeñas fisuras, rechaza el agua, impide el paso de humedad. Base de silicona y acrílico. Especial para terrazas y paredes verticales",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 6 m²",
+        "relaciones": "Especial para proteger ladrillos a la vista. Diluidor: Agua",
+        "categoria": "Impermeabilizante y Recubrimiento Acrilico"
     },
     {
-        "nombre": "Producto 7",
-        "descripcion": "este es mi septimo producto",
+        "nombre": "ACRILPINT E.A.3025",
+        "descripcion": "Enduido al agua, especial para paredes interiores y exteriores",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 1 m² por 1 cm. de espesor, lijable",
+        "relaciones": "Diluidor: Agua",
+        "categoria": "Impermeabilizante y Recubrimiento Acrilico"
     },
     {
-        "nombre": "Producto 8",
-        "descripcion": "este es mi octavo producto",
+        "nombre": "ACRILPINT I.C.3030",
+        "descripcion": "Cobertura membrana liquida especial; impermeabilizador techos, terrazas, membranas, pisos para canchas de paddle, refracta rayos solares, atenúa temperatura. Colores: varios",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 2 Litro: 10 m²",
+        "relaciones": "Diluidor: Agua, para mayor resultado aplicar indutex. rinde 3 m²",
+        "categoria": "Impermeabilizante y Recubrimiento Acrilico"
     },
     {
-        "nombre": "Producto 9",
-        "descripcion": "este es mi noveno producto",
+        "nombre": "ACRILPINT L.A.E.3033",
+        "descripcion": "Acrílico especial exterior: paredes, techos de zinc, terrazas, colores varios",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "Diluidor: Agua",
+        "categoria": "Impermeabilizante y Recubrimiento Acrilico"
     },
     {
-        "nombre": "Producto 10",
-        "descripcion": "este es mi decimo producto",
+        "nombre": "ACRILPINT L.A.I.3066",
+        "descripcion": "Acrílico para interior de ambientes con funguicida. Ecológico como anti-hongo. Colores: varios",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "Diluidor: Agua",
+        "categoria": "Impermeabilizante y Recubrimiento Acrilico"
     },
     {
-        "nombre": "Producto 1",
-        "descripcion": "este es mi primer producto",
+        "nombre": "ACRILPINT PROFESIONAL ACRILICO",
+        "descripcion": "Especial para proteger interior o exterior de paredes con revoques débiles y con alto poder de absorción, dejando una superficie uniforme y con buena terminación. Colores: varios",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 6 m²",
+        "relaciones": "Diluidor: Agua. Se aplica con pincel o rodillo. No pintar dias de lluvia",
+        "categoria": "Impermeabilizante y Recubrimiento Acrilico"
     },
     {
-        "nombre": "Producto 2",
-        "descripcion": "este es mi segundo producto",
+        "nombre": "ACRILPINT ECO",
+        "descripcion": "Latex económico para paredes con alto poder de absorción, dejando una superficie uniforme y con buena erminación. Colores: varios",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 6 m²",
+        "relaciones": "Diluidor: Agua. Se aplica con pincel o rodillo. No pintar dias de lluvia",
+        "categoria": "Impermeabilizante y Recubrimiento Acrilico"
     },
     {
-        "nombre": "Producto 3",
-        "descripcion": "este es mi tercer producto",
+        "nombre": "INDUPINT M.G.3095",
+        "descripcion": "Pintura especial marcación de ganado, acuosa y al solvente. Colores: varios",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Tixotrópica, rinde de acuerdo al uso",
+        "relaciones": "Diluidor: Agua o S.C.A",
+        "categoria": "Esmaltes específicos, Removedor y Diluyentes"
     },
     {
-        "nombre": "Producto 4",
-        "descripcion": "este es mi cuarto producto",
+        "nombre": "INDUMAR 2000 CAUCHO",
+        "descripcion": "Esmalte caucho dorado especial para pileta de natación. Alta resistencia y adhesividad. Colores varios",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "30 Micrones. Diluidor: DI.222",
+        "categoria": "Esmaltes específicos, Removedor y Diluyentes"
     },
     {
-        "nombre": "Producto 5",
-        "descripcion": "este es mi quinto producto",
+        "nombre": "INDUMAR 2000 ACRILICO",
+        "descripcion": "Esmaltes Acrílico especial para piletas de natación, reservorios de agua, muy adhesivo fácil aplic. Colores: varios",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 6 m²",
+        "relaciones": "Diluidor: Agua. Pintar dias secos",
+        "categoria": "Esmaltes específicos, Removedor y Diluyentes"
     },
     {
-        "nombre": "Producto 6",
-        "descripcion": "este es mi sexto producto",
+        "nombre": "REMOPINT R.E.111",
+        "descripcion": "Removedor para pinturas convencionales. Precaución: lavar",
         "propiedades": "",
-        "rendimiento": "",
-        "relaciones": "",
-        "categoria": "pintura"
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "Usar protección",
+        "categoria": "Esmaltes específicos, Removedor y Diluyentes"
     },
     {
-        "nombre": "Producto 7",
-        "descripcion": "este es mi septimo producto",
+        "nombre": "REMOPINT R.E.444",
+        "descripcion": "Removedor gel para pinturas Epoxis, cloradas, sintéticas. Precaución: lavar",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 8 m²",
+        "relaciones": "Usar protección",
+        "categoria": "Esmaltes específicos, Removedor y Diluyentes"
+    },
+    {
+        "nombre": "INDUPINT S.C.A",
+        "descripcion": "Diluidor especial para línea sintética",
+        "propiedades": "",
+        "rendimiento": "Rinde: 20% consumo de la pintura",
+        "relaciones": "",
+        "categoria": "Esmaltes específicos, Removedor y Diluyentes"
+    },
+    {
+        "nombre": "INDUPINT S.C.T.O",
+        "descripcion": "Diluidor para linea Vitro-Spray. Secado muy rápido",
+        "propiedades": "",
+        "rendimiento": "Rinde: 20% consumo de la pintura",
+        "relaciones": "",
+        "categoria": "Esmaltes específicos, Removedor y Diluyentes"
+    },
+    {
+        "nombre": "INDUPINT D.I.222",
+        "descripcion": "Diluidor especial para toda la linea caucho",
+        "propiedades": "",
+        "rendimiento": "Rinde: 20% consumo de la pintura",
+        "relaciones": "",
+        "categoria": "Esmaltes específicos, Removedor y Diluyentes"
+    },
+    {
+        "nombre": "INDUPINT D.I.333",
+        "descripcion": "Diluidor especial para toda la línea Epoxi",
+        "propiedades": "",
+        "rendimiento": "Rinde: 20% consumo de la pintura",
+        "relaciones": "",
+        "categoria": "Esmaltes específicos, Removedor y Diluyentes"
+    },
+    {
+        "nombre": "INDUPINT D.I.555",
+        "descripcion": "Diluidor especial para toda la línea Poliuretano",
+        "propiedades": "",
+        "rendimiento": "Rinde: 20% consumo de la pintura",
+        "relaciones": "",
+        "categoria": "Esmaltes específicos, Removedor y Diluyentes"
+    },
+    {
+        "nombre": "INDUPINT D.I.510",
+        "descripcion": "Diluidor especial para Zinc Inórganico",
+        "propiedades": "",
+        "rendimiento": "Rinde: 20% consumo de la pintura",
+        "relaciones": "",
+        "categoria": "Esmaltes específicos, Removedor y Diluyentes"
+    },
+    {
+        "nombre": "INDUPINT RESINA H",
+        "descripcion": "Revestimiento para aplicar con Matt y tela de vidrio. Alta resistencia en pisos de galvanoplastia, ácido sulfónico, canaletas, etc",
+        "propiedades": "",
+        "rendimiento": "Rinde: 3 Litro: 1 m²",
+        "relaciones": "1º impregan piso, luego aplicar Matt. Tri componentes: A+B+C. Preparado fragua 20 minutos",
+        "categoria": "Varios"
+    },
+    {
+        "nombre": "INDURROW",
+        "descripcion": "Telas especial para unir rajaduras, con epoxi o resina H",
         "propiedades": "",
         "rendimiento": "",
+        "relaciones": "Se aplica: 1º revestimiento, se pega la tela y se impregna nuevamente",
+        "categoria": "Varios"
+    },
+    {
+        "nombre": "INDUTEC 40",
+        "descripcion": "Tela especial se utiliza para producir estanqueidad en cámaras de atmósferas",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "Se impregan con resina la mampostería, se aplica la tela y nuevamente se pinta con Frío Pint FH 777. Acrílico",
+        "categoria": "Varios"
+    },
+    {
+        "nombre": "INDUPINT JH 224 HAYPALON",
+        "descripcion": "Resina a base de caucho muy elástica de uso en techos, canaletas, en condiciones severas. Colores: varios",
+        "propiedades": "",
+        "rendimiento": "Rinde: 2 Litro: 1 m² a 180 micrones",
+        "relaciones": "Componentes: A+B, alto sólido",
+        "categoria": "Varios"
+    },
+    {
+        "nombre": "PINCEL PINT",
+        "descripcion": "Pinceles y rodillos para uso en general, en distintas medidas",
+        "propiedades": "",
+        "rendimiento": "",
+        "relaciones": "Se podrá solicitar por el ancho y espesor, rodillos para sintético, caucho y epoxi",
+        "categoria": "Varios"
+    },
+    {
+        "nombre": "INDUTRON",
+        "descripcion": "Pintura especial para protección de troncos y tallos de plantas. Su formulación permite el desarrollo normal",
+        "propiedades": "",
+        "rendimiento": "Rinde: 1 Litro: 6 m²",
+        "relaciones": "Diluidor: Agua",
+        "categoria": "Varios"
+    },
+    {
+        "nombre": "INDUPINT ENTONADOR",
+        "descripcion": "Para teñir pinturas y obtener solo colores suaves",
+        "propiedades": "",
+        "rendimiento": "Agregar hasta 60 cm² por Litro",
         "relaciones": "",
-        "categoria": "pintura"
+        "categoria": "Varios"
     }
 ]
