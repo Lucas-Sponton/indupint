@@ -24,7 +24,7 @@ function cargarProductos() {
                                     </div>
                                 </div>
                                 <div class="descripcion alturaDescripcion">
-                                    <p class="card-text text-center main__productCard--h2">${producto.descripcion}</p>
+                                    <p class="card-text text-center main__productCard--h2 animacion">${producto.descripcion}</p>
                                     <button type="button" class="volver btn btn-outline-info main__productCard-botonVolver w-50 position-fixed bottom-0 end-50">Volver</button>
                                 </div>
                             </div>
@@ -39,7 +39,7 @@ function cargarProductos() {
                 boton.addEventListener('click', () => {
                     info.style.display = 'none';
                     descripcion.style.display = 'block';
-                    descripcion.classList.add('animacion');
+                    
                     boton.style.display = 'none';
 
                     setTimeout(() => {

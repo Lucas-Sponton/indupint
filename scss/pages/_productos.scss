@@ -10,7 +10,7 @@
 .main__productCard {
     height: 20rem;
     margin: 1rem .5rem 1rem .5rem;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(6px);
     border-radius: 35px;
     box-shadow: 20px 15px 3px 0px rgba(0, 0, 0, 0.4);
@@ -39,7 +39,8 @@
     align-items: center;
 }
 .main__productCard--h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
 }
 
 .main__productCard-botonInfo {
