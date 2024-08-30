@@ -12,14 +12,20 @@ function cargarProductos() {
                 card.innerHTML = `
                         <div class="card main__productCard">
                             <div class="card-body">
-                                <div class="info">
-                                    <h1 class="card-title fs-4">${producto.nombre}</h1>
-                                    <h2 class="card-subtitle mb-2 fs-5 tituloProducto"><b>${producto.rendimiento}</b></h2>
-                                    <button class="boton">Información</button>
+                                <div class="info alturaCard">
+                                    <div>
+                                        <h1 class="card-title fs-5 text-center">${producto.nombre}</h1>
+                                    </div>
+                                    <div class="mx-4 main__productCard--contenedorH2">
+                                        <h2 class="card-subtitle mb-2 main__productCard--h2"><b>${producto.rendimiento}</b></h2>
+                                    </div>
+                                    <div class="d-flex align-item-end">
+                                        <button type="button" class="boton btn btn-outline-info main__productCard-botonInfo w-50 position-fixed bottom-0 start-50">Información</button>
+                                    </div>
                                 </div>
-                                <div class="descripcion" style="display:none;">
-                                    <p class="card-text">${producto.descripcion}</p>
-                                    <button class="volver"> Volver atrás</button>
+                                <div class="descripcion alturaDescripcion">
+                                    <p class="card-text text-center main__productCard--h2">${producto.descripcion}</p>
+                                    <button type="button" class="volver btn btn-outline-info main__productCard-botonVolver w-50 position-fixed bottom-0 end-50">Volver</button>
                                 </div>
                             </div>
                         </div>
@@ -33,7 +39,7 @@ function cargarProductos() {
                 boton.addEventListener('click', () => {
                     info.style.display = 'none';
                     descripcion.style.display = 'block';
-                    descripcion.classList.add('animacion');                
+                    descripcion.classList.add('animacion');
                     boton.style.display = 'none';
 
                     setTimeout(() => {
@@ -43,9 +49,9 @@ function cargarProductos() {
                         boton.style.display = 'block';
                     }, 15000);
 
-                    
+
                 });
-                
+
                 volver.addEventListener('click', () => {
                     descripcion.style.display = 'none';
                     info.style.display = 'block';
@@ -59,10 +65,3 @@ cargarProductos();
 
 
 
-
-
-//animacion pasar página
-                    //descripcion.classList.add('animacion');
-                    //setTimeout(() => {
-                    //    descripcion.classList.remove('animacion');
-                    //}, 1000)
