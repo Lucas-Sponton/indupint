@@ -1,8 +1,8 @@
 .productosBody__bg {
-    background: url('/src/bienvenida-productos-3.jpg');
-    background-position: top center;
+    background: url('../src/bienvenida-productos-3.jpg'), url(../src/images/pintura-transparente-17.png);
+    background-position: top center, 100% 8%;
     background-repeat: no-repeat;
-    background-size: 1400px 620px;
+    background-size: 1400px 620px, 1300px 650px;
 }
 
 /*
