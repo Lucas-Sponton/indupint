@@ -69,31 +69,13 @@
   box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
 }
 
-.divPruebaFondo {
-  background-image: url("https://purina.com.pe/sites/default/files/styles/webp/public/2022-10/Que_debes_saber_antes_de_adoptar_un_gatito.jpg.webp?itok=N2sS0lfp");
-  background-repeat: no-repeat;
-}
-
 .productosBody__bg {
-  background: url("../src/bienvenida-productos-3.jpg"), url(../src/images/pintura-transparente-17.png);
-  background-position: top center, 100% 8%;
+  background: url("../src/bienvenida-productos-3.jpg"), url("../src/pintura-transparente-17.png"), url("../src/pintura-transparente-6.webp"), url("../src/pintura-transparente-14.png!sw800"), url("../src/pintura-transparente-1.webp"), url("../src/pintura-transparente-4.png!f305cw"), url("../src/pintura-transparente-11.webp"), url("../src/pintura-transparente-12.webp"), url("../src/pintura-transparente-13.png"), url("../src/pintura-transparente-15.png"), url("../src/pintura-transparente-16.png!bw700"), url("../src/pintura-transparente-7.webp"), url("../src/pintura-transparente-8.webp");
+  background-position: top center, 100% 8%, 83% 14%, 29% 25%, 45% 34%, 100% 42%, 30% 51%, 80% 60%, 80% 69%, 50% 78%, 50% 86%, 50% 94%, bottom center;
   background-repeat: no-repeat;
-  background-size: 1400px 620px, 1300px 650px;
+  background-size: 1400px 620px, 1300px 650px, 900px 900px, 1400px 400px, 700px 700px, 1000px 600px, 800px 500px, 1400px 400px, 1400px 700px, 700px 500px, 1400px 400px, 700px 400px, 1400px 400px;
 }
 
-/*
- ../../src/images/bienvenida-productos-3.jpg
- , url(../../src/images/pintura-transparente-17.png), url(../../src/images/pintura-transparente-6.webp), url(../../src/images/pintura-transparente-14.png!sw800), url(../../src/images/pintura-transparente-1.webp), url(../../src/images/pintura-transparente-4.png!f305cw), url(../../src/images/pintura-transparente-11.webp), url(../../src/images/pintura-transparente-12.webp), url(../../src/images/pintura-transparente-13.png), url(../../src/images/pintura-transparente-15.png), url(../../src/images/pintura-transparente-16.png!bw700), url(../../src/images/pintura-transparente-7.webp), url(../../src/images/pintura-transparente-8.webp)
- , 100% 8%, 83% 14%, 29% 25%, 45% 34%, 100% 42%, 30% 51%, 80% 60%, 80% 69%, 50% 78%, 50% 86%, 50% 94%, bottom center
- , 1300px 650px, 900px 900px, 1400px 400px, 700px 700px, 1000px 600px, 800px 500px, 1400px 400px, 1400px 700px, 700px 500px, 1400px 400px, 700px 400px, 1400px 400px
-
-
-
-
-
-
-
- */
 .main__productCard {
   height: 20rem;
   margin: 1rem 0.5rem 1rem 0.5rem;
