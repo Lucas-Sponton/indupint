@@ -70,12 +70,25 @@
 }
 
 .productosBody__bg {
-  background-image: url(../../src/bienvenida-productos-3.jpg), url(../../src/images/pintura-transparente-17.png), url(../../src/images/pintura-transparente-6.webp), url(../../src/images/pintura-transparente-14.png!sw800), url(../../src/images/pintura-transparente-1.webp), url(../../src/images/pintura-transparente-4.png!f305cw), url(../../src/images/pintura-transparente-11.webp), url(../../src/images/pintura-transparente-12.webp), url(../../src/images/pintura-transparente-13.png), url(../../src/images/pintura-transparente-15.png), url(../../src/images/pintura-transparente-16.png!bw700), url(../../src/images/pintura-transparente-7.webp), url(../../src/images/pintura-transparente-8.webp);
-  background-position: top center, 100% 8%, 83% 14%, 29% 25%, 45% 34%, 100% 42%, 30% 51%, 80% 60%, 80% 69%, 50% 78%, 50% 86%, 50% 94%, bottom center;
+  background-image: url(../../src/bienvenida-productos-3.jpg);
+  background-position: top center;
   background-repeat: no-repeat;
-  background-size: 1400px 620px, 1300px 650px, 900px 900px, 1400px 400px, 700px 700px, 1000px 600px, 800px 500px, 1400px 400px, 1400px 700px, 700px 500px, 1400px 400px, 700px 400px, 1400px 400px;
+  background-size: 1400px 620px;
 }
 
+/*
+ ../../src/images/bienvenida-productos-3.jpg
+ , url(../../src/images/pintura-transparente-17.png), url(../../src/images/pintura-transparente-6.webp), url(../../src/images/pintura-transparente-14.png!sw800), url(../../src/images/pintura-transparente-1.webp), url(../../src/images/pintura-transparente-4.png!f305cw), url(../../src/images/pintura-transparente-11.webp), url(../../src/images/pintura-transparente-12.webp), url(../../src/images/pintura-transparente-13.png), url(../../src/images/pintura-transparente-15.png), url(../../src/images/pintura-transparente-16.png!bw700), url(../../src/images/pintura-transparente-7.webp), url(../../src/images/pintura-transparente-8.webp)
+ , 100% 8%, 83% 14%, 29% 25%, 45% 34%, 100% 42%, 30% 51%, 80% 60%, 80% 69%, 50% 78%, 50% 86%, 50% 94%, bottom center
+ , 1300px 650px, 900px 900px, 1400px 400px, 700px 700px, 1000px 600px, 800px 500px, 1400px 400px, 1400px 700px, 700px 500px, 1400px 400px, 700px 400px, 1400px 400px
+
+
+
+
+
+
+
+ */
 .main__productCard {
   height: 20rem;
   margin: 1rem 0.5rem 1rem 0.5rem;
