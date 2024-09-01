@@ -8,7 +8,7 @@
 }
 
 .body__bgImg {
-  background-image: url("../../src/images/bienvenida.png");
+  background-image: url("../../src/bienvenida.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -67,6 +67,11 @@
   backdrop-filter: blur(6px);
   border-radius: 40px;
   box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.divPruebaFondo {
+  background-image: url("https://purina.com.pe/sites/default/files/styles/webp/public/2022-10/Que_debes_saber_antes_de_adoptar_un_gatito.jpg.webp?itok=N2sS0lfp");
+  background-repeat: no-repeat;
 }
 
 .productosBody__bg {

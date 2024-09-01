@@ -1,7 +1,5 @@
 const contenedorProductos = document.getElementById("contenedorProductos");
 
-
-
 function cargarProductos() {
     fetch('../productos.json')
         .then(respuesta => respuesta.json())
@@ -48,7 +46,6 @@ function cargarProductos() {
                         info.style.display = 'block';
                         boton.style.display = 'block';
                     }, 15000);
-
 
                 });
 
