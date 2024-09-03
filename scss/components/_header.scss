@@ -1,5 +1,6 @@
 .header {
     background-color: #f0f0f000;
+
 }
 .body__bgImg {
     background-image: url("../src/bienvenida.png");
@@ -11,4 +12,44 @@
 
 .header__navLogo {
     max-width: 80%;
+
+    
+
+    @include medium {
+        max-width: 90%;
+    }
+
+    @include small {
+        max-width: 95%;
+        margin-left: 4rem;
+    }
 }
+
+//clases para el responsive
+
+
+.header__responsive--productos {
+    @include large {
+        width: 8.77%;
+    }
+
+    @include medium {
+        width: 10.77%;
+    }
+
+    @include small {
+        width: 15.77%;
+        margin-right: 4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+//@include (nombre del mixin) {  }

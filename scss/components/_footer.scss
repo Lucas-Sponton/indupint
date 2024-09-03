@@ -2,6 +2,18 @@
     width: 30%;
     margin: 0 auto;
     background-color: #f0f0f000;
+    
+    @include large {
+        width: 31%;
+    }
+
+    @include medium {
+        width: 39%;
+    }
+
+    @include small {
+        width: 58%;
+    }
 }
 
 .footer__redesBorde {
