@@ -6,6 +6,17 @@
 .header {
   background-color: rgba(240, 240, 240, 0);
 }
+@media screen and (max-width: 768px) {
+  .header {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__nav--responsive {
+    justify-content: space-around;
+  }
+}
 
 .header__navLogo {
   max-width: 80%;
@@ -17,7 +28,7 @@
 }
 @media screen and (max-width: 768px) {
   .header__navLogo {
-    max-width: 90%;
+    max-width: 100%;
     margin-left: 2rem;
   }
 }
@@ -35,6 +46,8 @@
 @media screen and (max-width: 768px) {
   .header__responsive--productos {
     width: 13%;
+    margin-right: 2rem;
+    margin-left: 2rem;
   }
 }
 

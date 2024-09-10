@@ -1,6 +1,15 @@
 .header {
     background-color: #f0f0f000;
 
+    @include small {
+        width: 90%;
+    }
+}
+
+.header__nav--responsive {
+    @include small {
+        justify-content: space-around;
+    }
 }
 
 .header__navLogo {
@@ -13,7 +22,7 @@
     }
 
     @include small {
-        max-width: 90%;
+        max-width: 100%;
         margin-left: 2rem;
     }
 }
@@ -32,6 +41,8 @@
 
     @include small {
         width: 13%;
+        margin-right: 2rem;
+        margin-left: 2rem;
     }
 }
 
