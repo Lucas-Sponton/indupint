@@ -1,3 +1,13 @@
+.body__bgImg {
+    background-image: url("../src/bienvenida.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    @include small {
+        background-size: contain;
+    }
+}
 
 .main__divStart--estilos {
     width: 50%;
@@ -83,6 +93,10 @@
 .main__responsive--midUl {
     @include medium {
         padding-left: 5rem;
+    }
+
+    @include small {
+        padding-left: 0rem;
     }
 }
 

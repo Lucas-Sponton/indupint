@@ -7,13 +7,6 @@
   background-color: rgba(240, 240, 240, 0);
 }
 
-.body__bgImg {
-  background-image: url("../src/bienvenida.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
 .header__navLogo {
   max-width: 80%;
 }
@@ -68,6 +61,18 @@
 
 .footer__redesBorde {
   border-radius: 25% 25% 0% 0%;
+}
+
+.body__bgImg {
+  background-image: url("../src/bienvenida.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 768px) {
+  .body__bgImg {
+    background-size: contain;
+  }
 }
 
 .main__divStart--estilos {
@@ -153,6 +158,11 @@
 @media screen and (max-width: 992px) {
   .main__responsive--midUl {
     padding-left: 5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main__responsive--midUl {
+    padding-left: 0rem;
   }
 }
 
