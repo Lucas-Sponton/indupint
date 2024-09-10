@@ -105,6 +105,10 @@
     @include medium {
         width: 80%;
     }
+
+    @include small {
+        width: 65%;
+    }
 }
 
 //medium

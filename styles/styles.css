@@ -34,7 +34,7 @@
 }
 @media screen and (max-width: 768px) {
   .header__responsive--productos {
-    width: 15%;
+    width: 13%;
   }
 }
 
@@ -170,6 +170,11 @@
 @media screen and (max-width: 992px) {
   .main__responsive--midLi {
     width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main__responsive--midLi {
+    width: 65%;
   }
 }
 
