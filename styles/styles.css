@@ -24,8 +24,8 @@
 }
 @media screen and (max-width: 768px) {
   .header__navLogo {
-    max-width: 95%;
-    margin-left: 4rem;
+    max-width: 100%;
+    margin-left: 2rem;
   }
 }
 
@@ -41,8 +41,7 @@
 }
 @media screen and (max-width: 768px) {
   .header__responsive--productos {
-    width: 15.77%;
-    margin-right: 4rem;
+    width: 20%;
   }
 }
 
@@ -63,7 +62,7 @@
 }
 @media screen and (max-width: 768px) {
   .footer {
-    width: 58%;
+    width: 100%;
   }
 }
 
@@ -84,7 +83,7 @@
 }
 @media screen and (max-width: 768px) {
   .main__divStart--estilos {
-    width: 70%;
+    width: 90%;
   }
 }
 
@@ -125,7 +124,7 @@
 }
 @media screen and (max-width: 768px) {
   .main__responsive--mid {
-    width: 65%;
+    width: 92%;
   }
 }
 
@@ -141,7 +140,7 @@
 }
 @media screen and (max-width: 768px) {
   .main__responsive--mid2 {
-    width: 70%;
+    width: 90%;
   }
 }
 
