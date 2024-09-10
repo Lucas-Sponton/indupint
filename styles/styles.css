@@ -17,7 +17,7 @@
 }
 @media screen and (max-width: 768px) {
   .header__navLogo {
-    max-width: 100%;
+    max-width: 90%;
     margin-left: 2rem;
   }
 }
@@ -34,7 +34,7 @@
 }
 @media screen and (max-width: 768px) {
   .header__responsive--productos {
-    width: 20%;
+    width: 15%;
   }
 }
 
@@ -55,7 +55,7 @@
 }
 @media screen and (max-width: 768px) {
   .footer {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -163,6 +163,7 @@
 @media screen and (max-width: 768px) {
   .main__responsive--midUl {
     padding-left: 0rem;
+    margin-left: 2rem;
   }
 }
 

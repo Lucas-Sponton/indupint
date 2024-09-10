@@ -13,7 +13,7 @@
     }
 
     @include small {
-        max-width: 100%;
+        max-width: 90%;
         margin-left: 2rem;
     }
 }
@@ -31,7 +31,7 @@
     }
 
     @include small {
-        width: 20%;
+        width: 15%;
     }
 }
 
