@@ -1,9 +1,5 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
-
-
-
-import './styles/index.css'
-
+import { BrowserRouter } from 'react-router-dom';
+import './styles/styles.css'
 import PaginaActual from './components/PaginaActual';
 
 

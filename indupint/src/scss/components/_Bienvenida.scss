@@ -1,0 +1,389 @@
+@use "./Responsive" as responsive;
+
+/* Bienvenida*/
+
+
+.main__divStart--estilos {
+    width: 50%;
+    height: auto;
+    margin: 4rem 0rem 4rem 0rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(6px);
+    border-radius: 40px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+
+    @include responsive.superLarge {
+        width: 90%;
+        margin: 2rem 0rem 2rem 0rem;
+        padding: 2rem;
+        font-size: 2.5rem;
+    }
+
+    @include responsive.extraLarge {
+        width: 85%;
+        margin: 2rem 0rem 2rem 0rem;
+        padding: 2rem;
+        font-size: 2rem;
+    }
+
+    @include responsive.large {
+        width: 75%;
+        margin: 2rem 0rem 3rem 0rem;
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    @include responsive.medium {
+        width: 92%;
+        margin: 2rem 0rem 2rem 0rem;
+        padding: .8rem;
+        font-size: 1.8rem;
+    }
+
+    @include responsive.small {
+        width: 90%;
+        margin: 2rem 0rem 2rem 0rem;
+        padding: .6rem;
+        font-size: 1.6rem;
+    }
+
+    @include responsive.extraSmall {
+        width: 90%;
+        margin: 2rem 0rem 2rem 0rem;
+        padding: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    @include responsive.xxSmall {
+        width: 95%;
+        margin: 1.2rem 0rem 1.2rem 0rem;
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+
+    @include responsive.largeMobile {
+        width: 95%;
+        margin: 1rem 0rem 1rem 0rem;
+        padding: .7rem;
+        font-size: .9rem;
+    }
+
+    @include responsive.xxxSmall {
+        width: 98%;
+        margin: .6rem 0rem .6rem 0rem;
+        padding: .7rem;
+        font-size: .8rem;
+    }
+}
+
+.bienvenida__mainDiv--responsive {
+    @include responsive.superLarge {
+        width: 90%;
+        margin-bottom: 1.2rem;
+
+        .bienvenida__mainDiv--font {
+            font-size: 2.8rem;
+            padding: .7rem;
+        }
+
+        .bienvenida__mainDiv--flex {
+            padding: 0rem 2rem 2rem 2rem;
+        }
+    }
+
+    @include responsive.extraLarge {
+        width: 75%;
+        margin-bottom: 1.2rem;
+
+        .bienvenida__mainDiv--font {
+            font-size: 2.3rem;
+            padding: .5rem;
+        }
+
+        .bienvenida__mainDiv--flex {
+            padding: 0rem 2rem 2rem 2rem;
+        }
+    }
+
+    @include responsive.large {
+        width: 80%;
+        margin-bottom: 1.2rem;
+
+        .bienvenida__mainDiv--font {
+            font-size: 2rem;
+            padding: .7rem;
+        }
+
+        .bienvenida__mainDiv--flex {
+            padding: 0rem 1rem 1rem 1rem;
+        }
+    }
+
+    @include responsive.medium {
+        width: 92%;
+        margin-bottom: 1rem;
+
+        .bienvenida__mainDiv--font {
+            font-size: 1.8rem;
+            padding: .4rem;
+        }
+
+        .bienvenida__mainDiv--flex {
+            display: inline !important;
+            padding: 0rem 1.2rem 1.2rem 1.2rem;
+        }
+    }
+
+    @include responsive.small {
+        width: 90%;
+        margin-bottom: .9rem;
+
+        .bienvenida__mainDiv--font {
+            font-size: 1.8rem;
+            padding: .2rem;
+        }
+
+        .bienvenida__mainDiv--flex {
+            display: inline !important;
+            padding: 0;
+        }
+    }
+
+    @include responsive.extraSmall {
+        width: 95%;
+        margin-bottom: 0;
+
+        .bienvenida__mainDiv--font {
+            font-size: 1.5rem;
+            padding: 0rem;
+        }
+
+        .bienvenida__mainDiv--flex {
+            display: inline !important;
+            padding: 0;
+        }
+    }
+
+    @include responsive.xxSmall {
+        width: 95%;
+        margin-bottom: 0.4rem;
+        padding: 0;
+
+        .bienvenida__mainDiv--font {
+            font-size: 1.1rem;
+            padding: 0;
+        }
+
+        .bienvenida__mainDiv--flex {
+            display: inline !important;
+        }
+    }
+
+    @include responsive.largeMobile {
+        width: 95%;
+        margin-bottom: .2rem;
+
+        .bienvenida__mainDiv--font {
+            font-size: .95rem;
+        }
+
+        .bienvenida__mainDiv--flex {
+            display: inline !important;
+        }
+    }
+
+    @include responsive.xxxSmall {
+        width: 98%;
+        margin-bottom: .2rem;
+
+        .bienvenida__mainDiv--font {
+            font-size: .75rem;
+        }
+
+        .bienvenida__mainDiv--flex {
+            display: inline !important;
+        }
+    }
+}
+
+.main__divMid--estilos {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0rem 1rem 0rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(6px);
+    border-radius: 40px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.bienvenida__mainDiv2--responsive {
+    @include responsive.superLarge {
+        width: 90%;
+
+        .bienvenida__mainDiv--font {
+            font-size: 2.7rem;
+            padding: .5rem;
+        }
+    }
+
+    @include responsive.extraLarge {
+        width: 75%;
+
+        .bienvenida__mainDiv--font {
+            font-size: 2.5rem;
+            padding: .5rem;
+        }
+    }
+
+    @include responsive.large {
+        width: 80%;
+
+        .bienvenida__mainDiv--font {
+            font-size: 2rem;
+            padding: .8rem;
+        }
+    }
+
+    @include responsive.medium {
+        width: 92%;
+
+        .bienvenida__mainDiv--font {
+            font-size: 1.8rem;
+            padding: .7rem;
+        }
+    }
+
+    @include responsive.small {
+        width: 90%;
+
+        .bienvenida__mainDiv--font {
+            font-size: 1.8rem;
+            padding: .3rem;
+        }
+    }
+
+    @include responsive.extraSmall {
+        width: 95%;
+
+        .bienvenida__mainDiv--font {
+            font-size: 1.6rem;
+            padding: 0.3rem;
+        }
+    }
+
+    @include responsive.xxSmall {
+        width: 95%;
+        padding: 0;
+
+        .bienvenida__mainDiv--font {
+            font-size: 1.2rem;
+            padding: .2rem;
+        }
+    }
+
+    @include responsive.largeMobile {
+        width: 95%;
+
+        .bienvenida__mainDiv--font {
+            font-size: 1.05rem;
+            padding: .15rem;
+        }
+    }
+
+    @include responsive.xxxSmall {
+        width: 98%;
+
+        .bienvenida__mainDiv--font {
+            font-size: .85rem;
+            padding: .1rem;
+        }
+    }
+}
+
+.main__divMid2--estilos {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0rem 2rem 0rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(6px);
+    border-radius: 40px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.bienvenida__listStyle {
+    list-style: none;
+    padding: 0rem;
+
+    @include responsive.superLarge {
+        .bienvenida__fontLi {
+            font-size: 2.3rem;
+            padding: .7rem;
+        }
+    }
+
+    @include responsive.extraLarge {
+        .bienvenida__fontLi {
+            font-size: 2rem;
+            padding: .7rem;
+        }
+    }
+
+    @include responsive.large {
+        .bienvenida__fontLi {
+            font-size: 1.9rem;
+            padding: .5rem;
+        }
+    }
+
+    @include responsive.medium {
+        .bienvenida__fontLi {
+            font-size: 1.7rem;
+            padding: .1rem;
+        }
+    }
+
+    @include responsive.small {
+        .bienvenida__fontLi {
+            font-size: 1.5rem;
+            padding: 0.1rem;
+        }
+    }
+
+    @include responsive.extraSmall {
+        .bienvenida__fontLi {
+            font-size: 1.35rem;
+            padding: 0rem;
+        }
+    }
+
+    @include responsive.xxSmall {
+        .bienvenida__fontLi {
+            font-size: 1.15rem;
+            padding: 0.02rem;
+        }
+    }
+
+    @include responsive.largeMobile {
+        .bienvenida__fontLi {
+            font-size: .95rem;
+            padding: 0;
+        }
+    }
+
+    @include responsive.xxxSmall {
+        .bienvenida__fontLi {
+            font-size: .76rem;
+            padding: 0.02rem;
+        }
+    }
+}
+
+.marginDivBienvenida {
+    margin: 0;
+}

@@ -1,0 +1,98 @@
+@use "./Responsive" as responsive;
+
+
+.hamburguesa-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+@include responsive.small {
+    .hamburguesa-container {
+        display: block;
+    }
+}
+
+// menu hamburguesa estilos
+
+.menu-hamburguesa {
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    border: none;
+}
+
+.menu-hamburguesa-h1 {
+    margin: 4rem 0rem 5rem 0rem;
+    font-size: 2.5rem;
+    text-align: end;
+
+    @include responsive.extraSmall {
+        margin: 3rem 0rem 4rem 0rem;
+        font-size: 2rem;
+    }
+
+    @include responsive.xxSmall {
+        margin: 2rem 0rem 3rem 0rem;
+        font-size: 1.7rem;
+    }
+
+    @include responsive.largeMobile {
+        margin: .8rem 0rem 3rem 0rem;
+        font-size: 1.3rem;
+    }
+
+    @include responsive.xxxSmall {
+        margin: .5rem 0rem 2.2rem 0rem;
+        font-size: 1.05rem;
+    }
+}
+
+.menu-hamburguesa-boton-categorias {
+    backdrop-filter: blur(9px);
+    box-shadow: 13px 10px 3px 0px rgba(0, 0, 0, 0.4);
+
+    @include responsive.xxSmall {
+        font-size: 0.8rem;
+    }
+
+    @include responsive.largeMobile {
+        font-size: 0.55rem;
+    }
+
+    @include responsive.xxxSmall {
+        font-size: 0.42rem;
+    }
+}
+
+.collapse.show {
+    display: block;
+}
+
+//boton color
+
+.colorbotones {
+    background-color: #ed1800b5;
+
+    &:hover {
+        border: outset 1px #ed1800b5;
+        color: black;
+        backdrop-filter: blur(5px);
+    }
+}
+
+.menu-hamburguesa-cards {
+    @include responsive.extraSmall {
+        justify-content: center;
+    }
+}
+
+.menu-hamburguesa-card {
+    @include responsive.extraSmall {
+        width: 50%;
+    }
+
+    @include responsive.xxxSmall {
+        width: 95%;
+    }
+}

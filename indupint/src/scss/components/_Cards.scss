@@ -1,0 +1,94 @@
+/* Cards */
+@use "./Responsive" as responsive;
+
+.main__productCard {
+    display: block;
+    position: relative;
+    height: 16rem;
+    margin: 1rem .5rem;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(6px);
+    border-radius: 35px;
+    box-shadow: 20px 15px 3px 0px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+
+    @include responsive.xxSmall {
+        height: 13.5rem;
+    }
+
+    @include responsive.largeMobile {
+        height: 12rem;
+    }
+
+    @include responsive.xxxSmall {
+        height: 13rem;
+        margin: .1rem .2rem;
+    }
+
+    &:hover {
+        transition: 0.8s;
+        transform: scale(1.1);
+    }
+        .altura-h1-cards {
+            height: 2.8rem;
+            margin: 0rem;
+            
+            @include responsive.xxSmall {
+                height: 1rem;
+            }
+
+            @include responsive.largeMobile {
+                height: 0.8rem;
+            }
+            
+            .cardTamañoTitulo {
+                @include responsive.largeMobile {
+                    font-size: 0.8rem !important;
+                }
+
+                @include responsive.xxxSmall {
+                    font-size: 0.8rem !important;
+                }
+            }
+        }
+
+        .main__productCard-botonInfo {
+            border-radius: 25% 0% 35px 0%;
+            position: absolute;
+
+            @include responsive.extraSmall {
+                width: 52% !important;
+            }
+
+            @include responsive.xxSmall {
+                width: 62% !important;
+                left: 39% !important;
+            }
+
+            @include responsive.largeMobile {
+                width: 100% !important;
+                left: 0% !important;
+                font-size: 0.8rem;
+            }
+
+            @include responsive.xxxSmall {
+                width: 100% !important;
+                left: 0% !important;
+                font-size: 0.85rem;
+            }
+        }
+
+        .alturaContenedor-img {
+            width: 100%;
+            height: auto;
+            max-height: 80%;
+            border-radius: 20%;
+
+            @include responsive.xxxSmall {
+                width: 90%;
+            }
+        }
+}
+
+// display cards
+

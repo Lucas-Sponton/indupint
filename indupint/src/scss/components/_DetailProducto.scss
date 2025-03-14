@@ -1,0 +1,213 @@
+@use "./Responsive" as responsive;
+
+/* Detail Productos */
+
+.deslizContenedor {
+    position: fixed;
+    top: 0;
+    right: -1400px;
+    width: 400px;
+    height: 100vh;
+    background-color: #fff;
+    transition: right 0.5s;
+    z-index: 99999;
+
+    ::before {
+        content: "";
+        position: absolute;
+        top: -100px;
+        left: -300px;
+        width: 180%;
+        height: 130%;
+        background-image: url("../assets/pintura-transparente-8.webp");
+        background-size: 1000px 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        transform: rotate(90deg);
+        z-index: -1;
+    }
+
+    @include responsive.small {
+        top: auto;
+        bottom: -250vh;
+        left: 50%;
+        transform: translate(-50%);
+        right: auto;
+        width: 70%;
+        height: auto;
+        transition: bottom 0.5s;
+        border-radius: 10%;
+        overflow: hidden;
+        border: 3px solid rgba(125, 3, 206, 0.952);
+
+        ::before {
+            left: -150px;
+            background-image: url('../assets/pintura-transparente-17.png'), url('../assets/pintura-transparente-14.png!sw800'), url('../assets/pintura-transparente-8.webp');
+            background-size: 800px 290px, 800px 190px, 800px 350px;
+            background-position: 2% 2%, 50% 60%, 60% 220%;
+            backdrop-filter: blur(50px);
+            transform: rotate(0deg);
+            
+        }
+    }
+
+    @include responsive.extraSmall {
+        width: 75%;
+        height: 82%;
+
+        ::before {
+            background-size: 800px 280px, 600px 170px, 700px 260px;
+            background-position: 50% 7%, 40% 69%, 40% 162%;
+        }
+    }
+
+    @include responsive.xxSmall {
+        width: 85%;
+        height: 86%;
+    }
+
+    @include responsive.xxxSmall {
+        width: 97%;
+        height: 89%;
+    }
+}
+
+.deslizContenedor.open {
+    right: 0;
+
+    @include responsive.small {
+        bottom: -50px;
+        margin-bottom: 4rem;
+    }
+}
+
+.deslizContenido {
+    padding: 20px;
+    z-index: 1;
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include responsive.small {
+        padding: 2px;
+        height: 50vw;
+    }
+}
+.alturaContenedor {
+    flex-basis: 5%;
+
+    @include responsive.small {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        color: white;
+    }
+}
+
+.alturaDiv-img {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+
+.alturaContenedor-imagen {
+    flex-basis: 10%;
+    border-radius: 20%;
+    width: 80%;
+    height: 38%;
+
+    @include responsive.small {
+        width: auto;
+        height: 20vw;
+    }
+
+    @include responsive.xxxSmall {
+        width: auto;
+        height: 35vw;
+    }
+}
+
+.alturaContenedor-descripcion {
+    flex-basis: 10%;
+
+    @include responsive.small {
+        font-size: 1rem !important;
+        flex-basis: 5%;
+        padding-top: 0.4rem !important;
+        padding-bottom: 0.4rem !important;
+        color: white;
+        width: 90%;
+    }
+
+    @include responsive.extraSmall {
+        font-size: 1rem !important;
+    }
+
+    @include responsive.xxxSmall {
+        font-size: 0.75rem !important;
+    }
+}
+
+.tamañoLetra-h1 {
+    @include responsive.extraSmall {
+        font-size: 1.4rem !important;
+    }
+
+    @include responsive.xxxSmall {
+        font-size: 1.05rem !important;
+    }
+}
+
+.tamañoLetra-h3 {
+    @include responsive.extraSmall {
+        font-size: 1.1rem !important;
+    }
+
+    @include responsive.xxxSmall {
+        font-size: .85rem !important;
+    }
+}
+
+.tamañoLetra-p {
+    @include responsive.extraSmall {
+        font-size: 0.9rem !important;
+    }
+
+    @include responsive.xxxSmall {
+        font-size: 0.75rem !important;
+    }
+}
+
+
+.botonDetailContainer {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    height: 45px;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    
+    
+
+    @include responsive.small {
+        left: 89%;
+        height: 45px;
+    }
+
+    @include responsive.extraSmall {
+        top: 5px;
+    }
+
+    @include responsive.xxxSmall {
+        left: 84%;
+        
+    }
+}
+

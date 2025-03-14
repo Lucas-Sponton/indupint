@@ -1,0 +1,1005 @@
+@charset "UTF-8";
+.hamburguesa-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburguesa-container {
+    display: block;
+  }
+}
+.menu-hamburguesa {
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.menu-hamburguesa-h1 {
+  margin: 4rem 0rem 5rem 0rem;
+  font-size: 2.5rem;
+  text-align: end;
+}
+@media screen and (max-width: 576px) {
+  .menu-hamburguesa-h1 {
+    margin: 3rem 0rem 4rem 0rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  .menu-hamburguesa-h1 {
+    margin: 2rem 0rem 3rem 0rem;
+    font-size: 1.7rem;
+  }
+}
+@media screen and (max-width: 440px) and (min-width: 320px) {
+  .menu-hamburguesa-h1 {
+    margin: 0.8rem 0rem 3rem 0rem;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .menu-hamburguesa-h1 {
+    margin: 0.5rem 0rem 2.2rem 0rem;
+    font-size: 1.05rem;
+  }
+}
+
+.menu-hamburguesa-boton-categorias {
+  backdrop-filter: blur(9px);
+  box-shadow: 13px 10px 3px 0px rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 520px) {
+  .menu-hamburguesa-boton-categorias {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 440px) and (min-width: 320px) {
+  .menu-hamburguesa-boton-categorias {
+    font-size: 0.55rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .menu-hamburguesa-boton-categorias {
+    font-size: 0.42rem;
+  }
+}
+
+.collapse.show {
+  display: block;
+}
+
+.colorbotones {
+  background-color: rgba(237, 24, 0, 0.7098039216);
+}
+.colorbotones:hover {
+  border: outset 1px rgba(237, 24, 0, 0.7098039216);
+  color: black;
+  backdrop-filter: blur(5px);
+}
+
+@media screen and (max-width: 576px) {
+  .menu-hamburguesa-cards {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .menu-hamburguesa-card {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .menu-hamburguesa-card {
+    width: 95%;
+  }
+}
+
+/* FONDO BIENVENIDA*/
+.imagenFondoBienvenida {
+  background-image: url("../assets/bienvenida.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* FONDO PRODUCTOS*/
+.imagenFondoProductos {
+  background: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-17.png"), url("../assets/pintura-transparente-6.webp"), url("../assets/pintura-transparente-14.png!sw800"), url("../assets/pintura-transparente-1.webp"), url("../assets/pintura-transparente-4.png!f305cw"), url("../assets/pintura-transparente-11.webp"), url("../assets/pintura-transparente-12.webp"), url("../assets/pintura-transparente-13.png"), url("../assets/pintura-transparente-15.png"), url("../assets/pintura-transparente-16.png!bw700"), url("../assets/pintura-transparente-7.webp"), url("../assets/pintura-transparente-8.webp");
+  background-position: top center, 100% 8%, 83% 14%, 29% 25%, 45% 34%, 100% 42%, 30% 51%, 80% 60%, 80% 69%, 50% 78%, 50% 86%, 50% 94%, bottom center;
+  background-repeat: no-repeat;
+  background-size: 1400px 550px, 1300px 650px, 900px 900px, 1400px 400px, 700px 700px, 1000px 600px, 800px 500px, 1400px 400px, 1400px 700px, 700px 500px, 1400px 400px, 700px 400px, 1400px 400px;
+}
+@media screen and (max-width: 768px) {
+  .imagenFondoProductos {
+    background-image: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-13-rotada.png");
+    background-position: top center, 50% 0%;
+    background-repeat: no-repeat;
+    background-size: 1400px 330px, 2000px 1000px;
+    background-attachment: scroll, fixed;
+  }
+}
+@media screen and (max-width: 576px) {
+  .imagenFondoProductos {
+    background-image: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-13-rotada.png");
+    background-position: top center, 50% 0%;
+    background-repeat: no-repeat;
+    background-size: 650px 235px, 1700px 900px;
+    background-attachment: scroll, fixed;
+  }
+}
+@media screen and (max-width: 520px) {
+  .imagenFondoProductos {
+    background-image: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-13-rotada.png");
+    background-position: top center, 50% 0%;
+    background-repeat: no-repeat;
+    background-size: 550px 230px, 1600px 900px;
+    background-attachment: scroll, fixed;
+  }
+}
+@media screen and (max-width: 440px) and (min-width: 320px) {
+  .imagenFondoProductos {
+    background-image: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-13-rotada.png");
+    background-position: top center, 50% 0%;
+    background-repeat: no-repeat;
+    background-size: 470px 170px, 1500px 950px;
+    background-attachment: scroll, fixed;
+  }
+}
+@media screen and (max-width: 320px) {
+  .imagenFondoProductos {
+    background-image: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-13-rotada.png");
+    background-position: top center, 50% 0%;
+    background-repeat: no-repeat;
+    background-size: 360px 154px, 1050px 1000px;
+    background-attachment: scroll, fixed;
+  }
+}
+
+.imagenFondoDesoxidantes {
+  background: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-13.png");
+  background-position: top center, 80% 220%;
+  background-repeat: no-repeat;
+  background-size: 1400px 550px, 1400px 700px;
+}
+
+.imagenFondoAnticorrosivos {
+  background: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-17.png"), url("../assets/pintura-transparente-12.webp");
+  background-position: top center, 100% 50%, 20% 90%;
+  background-repeat: no-repeat;
+  background-size: 1400px 550px, 1300px 650px, 1200px 300px;
+}
+
+.imagenFondoCauchoClorado1 {
+  background: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-1.webp"), url("../assets/pintura-transparente-14.png!sw800");
+  background-position: top center, 65% 24%, 29% 110%;
+  background-repeat: no-repeat;
+  background-size: 1400px 550px, 700px 700px, 1400px 400px;
+}
+
+.imagenFondoRevestimientosPoliuretanos {
+  background: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-6.webp"), url("../assets/pintura-transparente-1.webp"), url("../assets/pintura-transparente-11.webp");
+  background-position: top center, -25% 75%, 100% 150%, 115% 50%;
+  background-repeat: no-repeat;
+  background-size: 1400px 550px, 800px 800px, 700px 700px, 650px 350px;
+}
+
+.imagenFondoRevestimientoFrigorifico {
+  background: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-16.png!bw700"), url("../assets/pintura-transparente-8.webp");
+  background-position: top center, 50% 46%, 50% 110%;
+  background-repeat: no-repeat;
+  background-size: 1400px 550px, 1400px 400px, 1400px 400px;
+}
+
+.imagenFondoCauchoClorado2 {
+  background: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-17.png"), url("../assets/pintura-transparente-8.webp");
+  background-position: top center, 100% 55%, 50% 105%;
+  background-repeat: no-repeat;
+  background-size: 1400px 550px, 1300px 650px, 1400px 400px;
+}
+
+.imagenFondoUsosEspeciales {
+  background: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-13.png"), url("../assets/pintura-transparente-16.png!bw700");
+  background-position: top center, 80% 40%, 50% 86%;
+  background-repeat: no-repeat;
+  background-size: 1400px 550px, 1400px 700px, 1400px 400px;
+}
+
+.imagenFondoAluminio {
+  background: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-6.webp"), url("../assets/pintura-transparente-15.png");
+  background-position: top center, 120% 35%, 30% 105%;
+  background-repeat: no-repeat;
+  background-size: 1400px 550px, 900px 900px, 700px 500px;
+}
+
+.imagenFondoImpermeabilizante {
+  background: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-14.png!sw800");
+  background-position: top center, 29% 80%;
+  background-repeat: no-repeat;
+  background-size: 1400px 550px, 1400px 500px;
+}
+
+.imagenFondoEsmaltesEspecificos {
+  background: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-8.webp"), url("../assets/pintura-transparente-17.png");
+  background-position: top center, 50% 45%, 80% 110%;
+  background-repeat: no-repeat;
+  background-size: 1400px 550px, 1400px 400px, 1300px 650px;
+}
+
+.imagenFondoVarios {
+  background: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-16.png!bw700");
+  background-position: top center, 40% 77%;
+  background-repeat: no-repeat;
+  background-size: 1400px 550px, 1400px 400px;
+}
+
+/* NavBar*/
+.header__navLogo {
+  max-width: 90%;
+}
+
+@media screen and (max-width: 520px) {
+  .navBar__responsive {
+    width: 45%;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navBar__responsive {
+    width: 60%;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navBar__responsive {
+    width: 55%;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navBar__responsive {
+    width: 50%;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navBar__responsive {
+    width: 45%;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .navBar__responsive {
+    width: 35%;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .navBar__responsive {
+    width: 35%;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .navBar__responsive {
+    width: 45%;
+    margin-top: 8px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .botonProductos-responsiveLink {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footerResponsive {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footerResponsive-redes {
+    font-size: 0.65rem;
+    width: 100%;
+    height: auto;
+    margin: 0 0.1rem 0.2rem 0.1rem !important;
+  }
+}
+
+/* Bienvenida*/
+.main__divStart--estilos {
+  width: 50%;
+  height: auto;
+  margin: 4rem 0rem 4rem 0rem;
+  font-size: 1.5rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(6px);
+  border-radius: 40px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+@media screen and (min-width: 1400px) {
+  .main__divStart--estilos {
+    width: 90%;
+    margin: 2rem 0rem 2rem 0rem;
+    padding: 2rem;
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main__divStart--estilos {
+    width: 85%;
+    margin: 2rem 0rem 2rem 0rem;
+    padding: 2rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main__divStart--estilos {
+    width: 75%;
+    margin: 2rem 0rem 3rem 0rem;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main__divStart--estilos {
+    width: 92%;
+    margin: 2rem 0rem 2rem 0rem;
+    padding: 0.8rem;
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main__divStart--estilos {
+    width: 90%;
+    margin: 2rem 0rem 2rem 0rem;
+    padding: 0.6rem;
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main__divStart--estilos {
+    width: 90%;
+    margin: 2rem 0rem 2rem 0rem;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  .main__divStart--estilos {
+    width: 95%;
+    margin: 1.2rem 0rem 1.2rem 0rem;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 440px) and (min-width: 320px) {
+  .main__divStart--estilos {
+    width: 95%;
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main__divStart--estilos {
+    width: 98%;
+    margin: 0.6rem 0rem 0.6rem 0rem;
+    padding: 0.7rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .bienvenida__mainDiv--responsive {
+    width: 90%;
+    margin-bottom: 1.2rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--font {
+    font-size: 2.8rem;
+    padding: 0.7rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--flex {
+    padding: 0rem 2rem 2rem 2rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .bienvenida__mainDiv--responsive {
+    width: 75%;
+    margin-bottom: 1.2rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--font {
+    font-size: 2.3rem;
+    padding: 0.5rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--flex {
+    padding: 0rem 2rem 2rem 2rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .bienvenida__mainDiv--responsive {
+    width: 80%;
+    margin-bottom: 1.2rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--font {
+    font-size: 2rem;
+    padding: 0.7rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--flex {
+    padding: 0rem 1rem 1rem 1rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .bienvenida__mainDiv--responsive {
+    width: 92%;
+    margin-bottom: 1rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--font {
+    font-size: 1.8rem;
+    padding: 0.4rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--flex {
+    display: inline !important;
+    padding: 0rem 1.2rem 1.2rem 1.2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bienvenida__mainDiv--responsive {
+    width: 90%;
+    margin-bottom: 0.9rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--font {
+    font-size: 1.8rem;
+    padding: 0.2rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--flex {
+    display: inline !important;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bienvenida__mainDiv--responsive {
+    width: 95%;
+    margin-bottom: 0;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--font {
+    font-size: 1.5rem;
+    padding: 0rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--flex {
+    display: inline !important;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 520px) {
+  .bienvenida__mainDiv--responsive {
+    width: 95%;
+    margin-bottom: 0.4rem;
+    padding: 0;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--font {
+    font-size: 1.1rem;
+    padding: 0;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--flex {
+    display: inline !important;
+  }
+}
+@media screen and (max-width: 440px) and (min-width: 320px) {
+  .bienvenida__mainDiv--responsive {
+    width: 95%;
+    margin-bottom: 0.2rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--font {
+    font-size: 0.95rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--flex {
+    display: inline !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bienvenida__mainDiv--responsive {
+    width: 98%;
+    margin-bottom: 0.2rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--font {
+    font-size: 0.75rem;
+  }
+  .bienvenida__mainDiv--responsive .bienvenida__mainDiv--flex {
+    display: inline !important;
+  }
+}
+
+.main__divMid--estilos {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0rem 1rem 0rem;
+  font-size: 1.5rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(6px);
+  border-radius: 40px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 1400px) {
+  .bienvenida__mainDiv2--responsive {
+    width: 90%;
+  }
+  .bienvenida__mainDiv2--responsive .bienvenida__mainDiv--font {
+    font-size: 2.7rem;
+    padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .bienvenida__mainDiv2--responsive {
+    width: 75%;
+  }
+  .bienvenida__mainDiv2--responsive .bienvenida__mainDiv--font {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .bienvenida__mainDiv2--responsive {
+    width: 80%;
+  }
+  .bienvenida__mainDiv2--responsive .bienvenida__mainDiv--font {
+    font-size: 2rem;
+    padding: 0.8rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .bienvenida__mainDiv2--responsive {
+    width: 92%;
+  }
+  .bienvenida__mainDiv2--responsive .bienvenida__mainDiv--font {
+    font-size: 1.8rem;
+    padding: 0.7rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bienvenida__mainDiv2--responsive {
+    width: 90%;
+  }
+  .bienvenida__mainDiv2--responsive .bienvenida__mainDiv--font {
+    font-size: 1.8rem;
+    padding: 0.3rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bienvenida__mainDiv2--responsive {
+    width: 95%;
+  }
+  .bienvenida__mainDiv2--responsive .bienvenida__mainDiv--font {
+    font-size: 1.6rem;
+    padding: 0.3rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  .bienvenida__mainDiv2--responsive {
+    width: 95%;
+    padding: 0;
+  }
+  .bienvenida__mainDiv2--responsive .bienvenida__mainDiv--font {
+    font-size: 1.2rem;
+    padding: 0.2rem;
+  }
+}
+@media screen and (max-width: 440px) and (min-width: 320px) {
+  .bienvenida__mainDiv2--responsive {
+    width: 95%;
+  }
+  .bienvenida__mainDiv2--responsive .bienvenida__mainDiv--font {
+    font-size: 1.05rem;
+    padding: 0.15rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bienvenida__mainDiv2--responsive {
+    width: 98%;
+  }
+  .bienvenida__mainDiv2--responsive .bienvenida__mainDiv--font {
+    font-size: 0.85rem;
+    padding: 0.1rem;
+  }
+}
+
+.main__divMid2--estilos {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0rem 2rem 0rem;
+  font-size: 1.5rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(6px);
+  border-radius: 40px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.bienvenida__listStyle {
+  list-style: none;
+  padding: 0rem;
+}
+@media screen and (min-width: 1400px) {
+  .bienvenida__listStyle .bienvenida__fontLi {
+    font-size: 2.3rem;
+    padding: 0.7rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .bienvenida__listStyle .bienvenida__fontLi {
+    font-size: 2rem;
+    padding: 0.7rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .bienvenida__listStyle .bienvenida__fontLi {
+    font-size: 1.9rem;
+    padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .bienvenida__listStyle .bienvenida__fontLi {
+    font-size: 1.7rem;
+    padding: 0.1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bienvenida__listStyle .bienvenida__fontLi {
+    font-size: 1.5rem;
+    padding: 0.1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bienvenida__listStyle .bienvenida__fontLi {
+    font-size: 1.35rem;
+    padding: 0rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  .bienvenida__listStyle .bienvenida__fontLi {
+    font-size: 1.15rem;
+    padding: 0.02rem;
+  }
+}
+@media screen and (max-width: 440px) and (min-width: 320px) {
+  .bienvenida__listStyle .bienvenida__fontLi {
+    font-size: 0.95rem;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bienvenida__listStyle .bienvenida__fontLi {
+    font-size: 0.76rem;
+    padding: 0.02rem;
+  }
+}
+
+.marginDivBienvenida {
+  margin: 0;
+}
+
+/* Cards */
+.main__productCard {
+  display: block;
+  position: relative;
+  height: 16rem;
+  margin: 1rem 0.5rem;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(6px);
+  border-radius: 35px;
+  box-shadow: 20px 15px 3px 0px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+@media screen and (max-width: 520px) {
+  .main__productCard {
+    height: 13.5rem;
+  }
+}
+@media screen and (max-width: 440px) and (min-width: 320px) {
+  .main__productCard {
+    height: 12rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main__productCard {
+    height: 13rem;
+    margin: 0.1rem 0.2rem;
+  }
+}
+.main__productCard:hover {
+  transition: 0.8s;
+  transform: scale(1.1);
+}
+.main__productCard .altura-h1-cards {
+  height: 2.8rem;
+  margin: 0rem;
+}
+@media screen and (max-width: 520px) {
+  .main__productCard .altura-h1-cards {
+    height: 1rem;
+  }
+}
+@media screen and (max-width: 440px) and (min-width: 320px) {
+  .main__productCard .altura-h1-cards {
+    height: 0.8rem;
+  }
+}
+@media screen and (max-width: 440px) and (min-width: 320px) {
+  .main__productCard .altura-h1-cards .cardTamañoTitulo {
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main__productCard .altura-h1-cards .cardTamañoTitulo {
+    font-size: 0.8rem !important;
+  }
+}
+.main__productCard .main__productCard-botonInfo {
+  border-radius: 25% 0% 35px 0%;
+  position: absolute;
+}
+@media screen and (max-width: 576px) {
+  .main__productCard .main__productCard-botonInfo {
+    width: 52% !important;
+  }
+}
+@media screen and (max-width: 520px) {
+  .main__productCard .main__productCard-botonInfo {
+    width: 62% !important;
+    left: 39% !important;
+  }
+}
+@media screen and (max-width: 440px) and (min-width: 320px) {
+  .main__productCard .main__productCard-botonInfo {
+    width: 100% !important;
+    left: 0% !important;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main__productCard .main__productCard-botonInfo {
+    width: 100% !important;
+    left: 0% !important;
+    font-size: 0.85rem;
+  }
+}
+.main__productCard .alturaContenedor-img {
+  width: 100%;
+  height: auto;
+  max-height: 80%;
+  border-radius: 20%;
+}
+@media screen and (max-width: 320px) {
+  .main__productCard .alturaContenedor-img {
+    width: 90%;
+  }
+}
+
+/* Detail Productos */
+.deslizContenedor {
+  position: fixed;
+  top: 0;
+  right: -1400px;
+  width: 400px;
+  height: 100vh;
+  background-color: #fff;
+  transition: right 0.5s;
+  z-index: 99999;
+}
+.deslizContenedor ::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: -300px;
+  width: 180%;
+  height: 130%;
+  background-image: url("../assets/pintura-transparente-8.webp");
+  background-size: 1000px 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+@media screen and (max-width: 768px) {
+  .deslizContenedor {
+    top: auto;
+    bottom: -250vh;
+    left: 50%;
+    transform: translate(-50%);
+    right: auto;
+    width: 70%;
+    height: auto;
+    transition: bottom 0.5s;
+    border-radius: 10%;
+    overflow: hidden;
+    border: 3px solid rgba(125, 3, 206, 0.952);
+  }
+  .deslizContenedor ::before {
+    left: -150px;
+    background-image: url("../assets/pintura-transparente-17.png"), url("../assets/pintura-transparente-14.png!sw800"), url("../assets/pintura-transparente-8.webp");
+    background-size: 800px 290px, 800px 190px, 800px 350px;
+    background-position: 2% 2%, 50% 60%, 60% 220%;
+    backdrop-filter: blur(50px);
+    transform: rotate(0deg);
+  }
+}
+@media screen and (max-width: 576px) {
+  .deslizContenedor {
+    width: 75%;
+    height: 82%;
+  }
+  .deslizContenedor ::before {
+    background-size: 800px 280px, 600px 170px, 700px 260px;
+    background-position: 50% 7%, 40% 69%, 40% 162%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .deslizContenedor {
+    width: 85%;
+    height: 86%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .deslizContenedor {
+    width: 97%;
+    height: 89%;
+  }
+}
+
+.deslizContenedor.open {
+  right: 0;
+}
+@media screen and (max-width: 768px) {
+  .deslizContenedor.open {
+    bottom: -50px;
+    margin-bottom: 4rem;
+  }
+}
+
+.deslizContenido {
+  padding: 20px;
+  z-index: 1;
+  height: 120%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .deslizContenido {
+    padding: 2px;
+    height: 50vw;
+  }
+}
+
+.alturaContenedor {
+  flex-basis: 5%;
+}
+@media screen and (max-width: 768px) {
+  .alturaContenedor {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: white;
+  }
+}
+
+.alturaDiv-img {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.alturaContenedor-imagen {
+  flex-basis: 10%;
+  border-radius: 20%;
+  width: 80%;
+  height: 38%;
+}
+@media screen and (max-width: 768px) {
+  .alturaContenedor-imagen {
+    width: auto;
+    height: 20vw;
+  }
+}
+@media screen and (max-width: 320px) {
+  .alturaContenedor-imagen {
+    width: auto;
+    height: 35vw;
+  }
+}
+
+.alturaContenedor-descripcion {
+  flex-basis: 10%;
+}
+@media screen and (max-width: 768px) {
+  .alturaContenedor-descripcion {
+    font-size: 1rem !important;
+    flex-basis: 5%;
+    padding-top: 0.4rem !important;
+    padding-bottom: 0.4rem !important;
+    color: white;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .alturaContenedor-descripcion {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .alturaContenedor-descripcion {
+    font-size: 0.75rem !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .tamañoLetra-h1 {
+    font-size: 1.4rem !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .tamañoLetra-h1 {
+    font-size: 1.05rem !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .tamañoLetra-h3 {
+    font-size: 1.1rem !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .tamañoLetra-h3 {
+    font-size: 0.85rem !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .tamañoLetra-p {
+    font-size: 0.9rem !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .tamañoLetra-p {
+    font-size: 0.75rem !important;
+  }
+}
+
+.botonDetailContainer {
+  position: absolute;
+  top: 30px;
+  left: -30px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .botonDetailContainer {
+    left: 89%;
+    height: 45px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .botonDetailContainer {
+    top: 5px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .botonDetailContainer {
+    left: 84%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

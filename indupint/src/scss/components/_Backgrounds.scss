@@ -1,0 +1,140 @@
+@use "./Responsive" as responsive;
+/* FONDO BIENVENIDA*/
+
+.imagenFondoBienvenida {
+    background-image: url("../assets/bienvenida.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* FONDO PRODUCTOS*/
+
+.imagenFondoProductos {
+    background: url('../assets/bienvenida-productos-3.jpg'), url('../assets/pintura-transparente-17.png'), url('../assets/pintura-transparente-6.webp'), url('../assets/pintura-transparente-14.png!sw800'), url('../assets/pintura-transparente-1.webp'), url('../assets/pintura-transparente-4.png!f305cw'), url('../assets/pintura-transparente-11.webp'), url('../assets/pintura-transparente-12.webp'), url('../assets/pintura-transparente-13.png'), url('../assets/pintura-transparente-15.png'), url('../assets/pintura-transparente-16.png!bw700'), url('../assets/pintura-transparente-7.webp'), url('../assets/pintura-transparente-8.webp');
+    background-position: top center, 100% 8%, 83% 14%, 29% 25%, 45% 34%, 100% 42%, 30% 51%, 80% 60%, 80% 69%, 50% 78%, 50% 86%, 50% 94%, bottom center;
+    background-repeat: no-repeat;
+    background-size: 1400px 550px, 1300px 650px, 900px 900px, 1400px 400px, 700px 700px, 1000px 600px, 800px 500px, 1400px 400px, 1400px 700px, 700px 500px, 1400px 400px, 700px 400px, 1400px 400px;
+
+    
+
+    @include responsive.small {
+        background-image: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-13-rotada.png");
+        background-position: top center, 50% 0%;
+        background-repeat: no-repeat;
+        background-size: 1400px 330px, 2000px 1000px;
+        background-attachment: scroll, fixed;
+    }
+    
+    @include responsive.extraSmall {
+        background-image: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-13-rotada.png");
+        background-position: top center, 50% 0%;
+        background-repeat: no-repeat;
+        background-size: 650px 235px, 1700px 900px;
+        background-attachment: scroll, fixed;
+    }
+
+    @include responsive.xxSmall {
+        background-image: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-13-rotada.png");
+        background-position: top center, 50% 0%;
+        background-repeat: no-repeat;
+        background-size: 550px 230px, 1600px 900px;
+        background-attachment: scroll, fixed;
+    }
+
+    @include responsive.largeMobile {
+        background-image: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-13-rotada.png");
+        background-position: top center, 50% 0%;
+        background-repeat: no-repeat;
+        background-size: 470px 170px, 1500px 950px;
+        background-attachment: scroll, fixed;
+    }
+
+    @include responsive.xxxSmall {
+        background-image: url("../assets/bienvenida-productos-3.jpg"), url("../assets/pintura-transparente-13-rotada.png");
+        background-position: top center, 50% 0%;
+        background-repeat: no-repeat;
+        background-size: 360px 154px, 1050px 1000px;
+        background-attachment: scroll, fixed;
+    }
+}
+
+
+.imagenFondoDesoxidantes {
+    background: url('../assets/bienvenida-productos-3.jpg'), url('../assets/pintura-transparente-13.png');
+    background-position: top center, 80% 220%;
+    background-repeat: no-repeat;
+    background-size: 1400px 550px, 1400px 700px;
+}
+
+.imagenFondoAnticorrosivos {
+    background: url('../assets/bienvenida-productos-3.jpg'), url('../assets/pintura-transparente-17.png'), url('../assets/pintura-transparente-12.webp');
+    background-position: top center, 100% 50%, 20% 90%;
+    background-repeat: no-repeat;
+    background-size: 1400px 550px, 1300px 650px, 1200px 300px;
+}
+
+
+
+.imagenFondoCauchoClorado1 {
+    background: url('../assets/bienvenida-productos-3.jpg'), url('../assets/pintura-transparente-1.webp'), url('../assets/pintura-transparente-14.png!sw800');
+    background-position: top center, 65% 24%, 29% 110%;
+    background-repeat: no-repeat;
+    background-size: 1400px 550px, 700px 700px, 1400px 400px;
+}
+
+.imagenFondoRevestimientosPoliuretanos {
+    background: url('../assets/bienvenida-productos-3.jpg'), url('../assets/pintura-transparente-6.webp'), url('../assets/pintura-transparente-1.webp'), url('../assets/pintura-transparente-11.webp');
+    background-position: top center, -25% 75%, 100% 150%, 115% 50%;
+    background-repeat: no-repeat;
+    background-size: 1400px 550px, 800px 800px, 700px 700px, 650px 350px;
+}
+
+.imagenFondoRevestimientoFrigorifico {
+    background: url('../assets/bienvenida-productos-3.jpg'), url('../assets/pintura-transparente-16.png!bw700'), url('../assets/pintura-transparente-8.webp');
+    background-position: top center, 50% 46%, 50% 110%;
+    background-repeat: no-repeat;
+    background-size: 1400px 550px, 1400px 400px, 1400px 400px;
+}
+
+.imagenFondoCauchoClorado2 {
+    background: url('../assets/bienvenida-productos-3.jpg'), url('../assets/pintura-transparente-17.png'), url('../assets/pintura-transparente-8.webp');
+    background-position: top center, 100% 55%, 50% 105%;
+    background-repeat: no-repeat;
+    background-size: 1400px 550px, 1300px 650px, 1400px 400px;
+}
+
+.imagenFondoUsosEspeciales {
+    background: url('../assets/bienvenida-productos-3.jpg'), url('../assets/pintura-transparente-13.png'), url('../assets/pintura-transparente-16.png!bw700');
+    background-position: top center, 80% 40%, 50% 86%;
+    background-repeat: no-repeat;
+    background-size: 1400px 550px, 1400px 700px, 1400px 400px;
+}
+
+.imagenFondoAluminio {
+    background: url('../assets/bienvenida-productos-3.jpg'), url('../assets/pintura-transparente-6.webp'), url('../assets/pintura-transparente-15.png');
+    background-position: top center, 120% 35%, 30% 105%;
+    background-repeat: no-repeat;
+    background-size: 1400px 550px, 900px 900px, 700px 500px;
+}
+
+.imagenFondoImpermeabilizante {
+    background: url('../assets/bienvenida-productos-3.jpg'), url('../assets/pintura-transparente-14.png!sw800');
+    background-position: top center, 29% 80%;
+    background-repeat: no-repeat;
+    background-size: 1400px 550px, 1400px 500px;
+}
+
+.imagenFondoEsmaltesEspecificos {
+    background: url('../assets/bienvenida-productos-3.jpg'), url('../assets/pintura-transparente-8.webp'), url('../assets/pintura-transparente-17.png');
+    background-position: top center, 50% 45%, 80% 110%;
+    background-repeat: no-repeat;
+    background-size: 1400px 550px, 1400px 400px, 1300px 650px;
+}
+
+.imagenFondoVarios {
+    background: url('../assets/bienvenida-productos-3.jpg'), url('../assets/pintura-transparente-16.png!bw700');
+    background-position: top center, 40% 77%;
+    background-repeat: no-repeat;
+    background-size: 1400px 550px, 1400px 400px;
+}

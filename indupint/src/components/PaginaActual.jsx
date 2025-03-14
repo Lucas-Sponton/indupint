@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Productos from "./Productos";
 import Bienvenida from "./Bienvenida";
 import Footer from './Footer'

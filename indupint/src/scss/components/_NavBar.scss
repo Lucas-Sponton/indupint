@@ -1,0 +1,78 @@
+@use "./Responsive" as responsive;
+
+/* NavBar*/
+
+.header__navLogo {
+    max-width: 90%;
+}
+
+.navBar__responsive {
+    
+
+    @include responsive.xxSmall {
+        width: 45%;
+        margin: .5rem 0rem .5rem 0rem;
+    }
+
+    @include responsive.extraSmall {
+        width: 60%;
+        margin: .5rem 0rem .5rem 0rem;
+    }
+
+    @include responsive.small {
+        width: 55%;
+        margin: .5rem 0rem .5rem 0rem;
+    }
+
+    @include responsive.medium {
+        width: 50%;
+        margin: .5rem 0rem .5rem 0rem;
+    }
+
+    @include responsive.large {
+        width: 45%;
+        margin: .5rem 0rem .5rem 0rem;
+    }
+
+    @include responsive.extraLarge {
+        width: 35%;
+        margin: .5rem 0rem .5rem 0rem;
+    }
+
+    @include responsive.superLarge {
+        width: 35%;
+        margin: .5rem 0rem .5rem 0rem;
+    }
+
+    @include responsive.xxxSmall{
+        width: 45%;
+        margin-top: 8px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+
+.botonProductos-responsiveLink {
+    @include responsive.xxxSmall{
+        font-size: .6rem;
+    }
+}
+
+
+.footerResponsive {
+    @include responsive.xxxSmall{
+        display: flex;
+    }
+}
+
+
+.footerResponsive-redes {
+    @include responsive.xxxSmall {
+        font-size: .65rem;
+        width: 100%;
+        height: auto;
+        margin: 0 .1rem .2rem .1rem !important;
+    }
+}
