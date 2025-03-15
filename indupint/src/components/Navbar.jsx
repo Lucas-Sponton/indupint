@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 
+import tituloIndupint from '../assets/titulo-indupint.png';
+
 const NavBar = () => {
     const location = useLocation();
 
@@ -27,7 +29,7 @@ const NavBar = () => {
             <div className="row">
                 <div className="col-3 navBar__responsive">
                     <NavLink to={"/"} onClick={handleLogoClick}>
-                        <img src="../src/assets/titulo-indupint.png" alt="hola soy el logo" className="header__navLogo" />
+                        <img src={tituloIndupint} alt="hola soy el logo" className="header__navLogo" />
                     </NavLink>
                 </div>
                 <div className="col d-flex justify-content-end my-2">
