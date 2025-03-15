@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 
-import tituloIndupint from '../assets/titulo-indupint.png';
 
 const NavBar = () => {
     const location = useLocation();
