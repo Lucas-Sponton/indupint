@@ -28,7 +28,7 @@ const NavBar = () => {
             <div className="row">
                 <div className="col-3 navBar__responsive">
                     <NavLink to={"/"} onClick={handleLogoClick}>
-                        <img src="/titulo-indupint" alt="hola soy el logo" className="header__navLogo" />
+                        <img src="../assets/titulo-indupint" alt="hola soy el logo" className="header__navLogo" />
                     </NavLink>
                 </div>
                 <div className="col d-flex justify-content-end my-2">
