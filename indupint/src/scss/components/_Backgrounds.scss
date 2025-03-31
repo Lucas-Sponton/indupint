@@ -24,6 +24,7 @@
         background-repeat: no-repeat;
         background-size: 1400px 330px, 2000px 1000px;
         background-attachment: scroll, fixed;
+        height: 350vh;
     }
     
     @include responsive.extraSmall {
@@ -32,6 +33,7 @@
         background-repeat: no-repeat;
         background-size: 650px 235px, 1700px 900px;
         background-attachment: scroll, fixed;
+        height: 260vh;
     }
 
     @include responsive.xxSmall {
@@ -40,6 +42,7 @@
         background-repeat: no-repeat;
         background-size: 550px 230px, 1600px 900px;
         background-attachment: scroll, fixed;
+        height: 250vh;
     }
 
     @include responsive.largeMobile {
@@ -48,6 +51,7 @@
         background-repeat: no-repeat;
         background-size: 470px 170px, 1500px 950px;
         background-attachment: scroll, fixed;
+        height: 200vh;
     }
 
     @include responsive.xxxSmall {
@@ -56,6 +60,7 @@
         background-repeat: no-repeat;
         background-size: 360px 154px, 1050px 1000px;
         background-attachment: scroll, fixed;
+        height: 145vh;
     }
 }
 

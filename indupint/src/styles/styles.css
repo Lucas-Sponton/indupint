@@ -119,6 +119,7 @@
     background-repeat: no-repeat;
     background-size: 1400px 330px, 2000px 1000px;
     background-attachment: scroll, fixed;
+    height: 350vh;
   }
 }
 @media screen and (max-width: 576px) {
@@ -128,6 +129,7 @@
     background-repeat: no-repeat;
     background-size: 650px 235px, 1700px 900px;
     background-attachment: scroll, fixed;
+    height: 260vh;
   }
 }
 @media screen and (max-width: 520px) {
@@ -137,6 +139,7 @@
     background-repeat: no-repeat;
     background-size: 550px 230px, 1600px 900px;
     background-attachment: scroll, fixed;
+    height: 250vh;
   }
 }
 @media screen and (max-width: 440px) and (min-width: 320px) {
@@ -146,6 +149,7 @@
     background-repeat: no-repeat;
     background-size: 470px 170px, 1500px 950px;
     background-attachment: scroll, fixed;
+    height: 200vh;
   }
 }
 @media screen and (max-width: 320px) {
@@ -155,6 +159,7 @@
     background-repeat: no-repeat;
     background-size: 360px 154px, 1050px 1000px;
     background-attachment: scroll, fixed;
+    height: 145vh;
   }
 }
 
@@ -310,6 +315,10 @@
     height: auto;
     margin: 0 0.1rem 0.2rem 0.1rem !important;
   }
+}
+
+body {
+  height: 220vw;
 }
 
 /* Bienvenida*/
