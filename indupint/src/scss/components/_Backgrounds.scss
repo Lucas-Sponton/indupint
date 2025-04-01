@@ -15,7 +15,7 @@
     background-position: top center, 100% 8%, 83% 14%, 29% 25%, 45% 34%, 100% 42%, 30% 51%, 80% 60%, 80% 69%, 50% 78%, 50% 86%, 50% 94%, bottom center;
     background-repeat: no-repeat;
     background-size: 1400px 550px, 1300px 650px, 900px 900px, 1400px 400px, 700px 700px, 1000px 600px, 800px 500px, 1400px 400px, 1400px 700px, 700px 500px, 1400px 400px, 700px 400px, 1400px 400px;
-
+    min-height: 100vh;
     
 
     @include responsive.small {
@@ -24,7 +24,6 @@
         background-repeat: no-repeat;
         background-size: 1400px 330px, 2000px 1000px;
         background-attachment: scroll, fixed;
-        height: 350vh;
     }
     
     @include responsive.extraSmall {
@@ -33,7 +32,6 @@
         background-repeat: no-repeat;
         background-size: 650px 235px, 1700px 900px;
         background-attachment: scroll, fixed;
-        height: 260vh;
     }
 
     @include responsive.xxSmall {
@@ -42,7 +40,6 @@
         background-repeat: no-repeat;
         background-size: 550px 230px, 1600px 900px;
         background-attachment: scroll, fixed;
-        height: 250vh;
     }
 
     @include responsive.largeMobile {
@@ -51,7 +48,6 @@
         background-repeat: no-repeat;
         background-size: 470px 170px, 1500px 950px;
         background-attachment: scroll, fixed;
-        height: 200vh;
     }
 
     @include responsive.xxxSmall {
@@ -60,7 +56,6 @@
         background-repeat: no-repeat;
         background-size: 360px 154px, 1050px 1000px;
         background-attachment: scroll, fixed;
-        height: 145vh;
     }
 }
 
