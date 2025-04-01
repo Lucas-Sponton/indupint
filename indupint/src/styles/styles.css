@@ -313,6 +313,10 @@
   }
 }
 
+body {
+  height: 100%;
+}
+
 /* Bienvenida*/
 .main__divStart--estilos {
   width: 50%;

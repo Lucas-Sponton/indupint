@@ -18,7 +18,7 @@ const MenuHamburguesa = ({ categorias, onCategoriaClick, additionalClass }) => {
     };
 
     return (
-        <div>
+        <div className="d-flex flex-column justify-content-evenly flex-grow-1">
             <h1 className={`d-block d-md-none ${additionalClass}-h1`}>¡Garantizamos la mas alta calidad en toda nuestra línea de productos!</h1>
             <div className="hamburguesa-container">
                 <div className="d-grid gap-3 my-4">
