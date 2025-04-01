@@ -1,13 +1,4 @@
 @charset "UTF-8";
-@media screen and (max-width: 768px) {
-  .contenedor__menuHamburguesa--height {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 100vh;
-  }
-}
-
 .hamburguesa-container {
   display: none;
   justify-content: center;
@@ -17,6 +8,7 @@
 @media screen and (max-width: 768px) {
   .hamburguesa-container {
     display: block;
+    min-height: 50vh;
   }
 }
 .menu-hamburguesa {

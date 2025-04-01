@@ -1,14 +1,6 @@
 @use "./Responsive" as responsive;
 
-.contenedor__menuHamburguesa--height {
 
-    @include responsive.small {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        min-height: 100vh;
-    }
-}
 
 
 
@@ -21,6 +13,7 @@
 @include responsive.small {
     .hamburguesa-container {
         display: block;
+        min-height: 50vh;
     }
 }
 
